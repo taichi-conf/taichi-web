@@ -83,8 +83,9 @@
         
         <div class="venue-card">
           <div class="venue-image-container">
-            <img src="@/assets/清大校門.jpg" alt="清大校門" class="venue-image">
-            <div class="venue-image-caption">清大校門</div>
+            <VenueSlideshow />
+            <!-- <img src="@/assets/清大校門.jpg" alt="清大校門" class="venue-image">
+            <div class="venue-image-caption">清大校門</div> -->
           </div>
           
           <div class="venue-description">
@@ -125,8 +126,12 @@
 </template>
 
 <script>
+import VenueSlideshow from '@/components/VenueSlideshow.vue';
 export default {
   name: 'InclosiGenPage',
+  components: {
+    VenueSlideshow // Register the component
+  },
   data() {
     return {
       // Data if needed
@@ -429,39 +434,7 @@ export default {
 }
 
 /* Venue Styles */
-.venue-image-container {
-  width: 100%;
-  position: relative;
-}
-
-.venue-image {
-  width: 80%;
-  margin: 0 auto;
-  border-radius: 40px;
-  height: auto;
-  display: block;
-}
-
-.venue-image-caption {
-  position: absolute;
-  bottom: 30px;
-  left: calc(10% + 30px);
-  color: white;
-  font-size: 26px;
-  padding: 3px 8px;
-  border-radius: 3px;
-}
-
 @media (max-width: 768px) {
-  .venue-image {
-    width: calc(100%-20px);
-    margin: 0 auto;
-    border-radius: 20px;
-  }
-  .venue-image-caption {
-    left: 10%;
-    font-size: 20px;
-  }
   .venue-description {
     padding: 20px 10px;
   }
