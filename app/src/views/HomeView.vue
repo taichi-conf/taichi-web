@@ -30,7 +30,7 @@
           <div class="card-content">
             <h3 class="card-title">論文 FULL PAPER & 設計論文 PICTORIAL</h3>
             <div class="card-info">
-              <div class="deadline">截稿日: 2024.6.10</div>
+              <div class="deadline">截稿日: 2025.6.10</div>
               <router-link to="/submit-details" class="purple-button">了解更多</router-link>
             </div>
           </div>
@@ -40,7 +40,7 @@
           <div class="card-content">
             <h3 class="card-title">海報論文 POSTER AND LATE-BREAKING WORK & 互動展示論文 INTERACTIVITY AND DEMO</h3>
             <div class="card-info">
-              <div class="deadline">截稿日: 2024.6.16</div>
+              <div class="deadline">截稿日: 2025.6.16</div>
               <router-link to="/submit-details" class="purple-button">了解更多</router-link>
             </div>
           </div>

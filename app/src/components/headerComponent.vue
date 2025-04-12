@@ -52,9 +52,9 @@ export default {
     return {
       menuList: [
         { name: '首頁', url: '/' },
-        { name: '組織&成員', url: '/members' },
-        { name: '場地', url: '/venues' },
-        { name: '設計競賽', url: '/competitions' }
+        { name: '組織&成員', url: '/' }, //members
+        { name: '場地', url: '/' }, //venues
+        { name: '設計競賽', url: '/' } //competitions
       ],
       iconSrc: require('@/assets/TAICHI’25.svg'),
       drawerStatus: false,
