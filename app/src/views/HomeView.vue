@@ -1,10 +1,10 @@
 <!-- InclosiGen.vue -->
 <template>
-  <div class="home-container">
+  <div class="page-container">
     <div class="inclusigen-container">
       <!-- Hero Section -->
       <section class="hero-section">
-        <img src="@/assets/logo.gif" alt="INCLUSIGEN" class="logo" />
+        <img src="https://raw.githubusercontent.com/taichi-conf/taichi-web/refs/heads/develop/app/src/assets/logo.gif" alt="INCLUSIGEN" class="logo" />
         <h2 class="subtitle">第十一屆台灣人機互動研討會</h2>
         <h3 class="english-subtitle">The 11th Annual Conference of Taiwan Association of Computer Human Interaction</h3>
         
@@ -13,7 +13,7 @@
             <div class="date">2025.8.2-3</div>
             <div class="location">國立清華大學 National Tsing Hua University</div>
           </div>
-          <router-link to="/" class="submit-button"><img src="@/assets/論文投稿.png" alt="submition-button"/></router-link>
+          <router-link to="" class="submit-button"><img src="@/assets/論文投稿.png" alt="submition-button"/></router-link>
         </div>
 
       </section>
@@ -31,7 +31,7 @@
             <h3 class="card-title">論文 FULL PAPER & 設計論文 PICTORIAL</h3>
             <div class="card-info">
               <div class="deadline">截稿日: 2025.6.10</div>
-              <router-link to="/submit-details" class="purple-button">了解更多</router-link>
+              <router-link to="" class="purple-button">了解更多</router-link>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
             <h3 class="card-title">海報論文 POSTER AND LATE-BREAKING WORK & 互動展示論文 INTERACTIVITY AND DEMO</h3>
             <div class="card-info">
               <div class="deadline">截稿日: 2025.6.16</div>
-              <router-link to="/submit-details" class="purple-button">了解更多</router-link>
+              <router-link to="" class="purple-button">了解更多</router-link>
             </div>
           </div>
         </div>
@@ -141,15 +141,6 @@ export default {
 </script>
 
 <style scoped>
-.home-container {
-  overflow-y: auto;
-  height: calc(100vh - 65px);
-}
-@media (max-width: 768px) {
-  .home-container {
-    height: calc(100vh - 85px);
-  }
-}
 /* General Styles */
 .inclusigen-container {
   margin: 0 auto;
@@ -173,15 +164,6 @@ export default {
     padding: 20px 20px;
     width: 90%;
   }
-}
-
-.main-title {
-  font-size: 3.5rem;
-  color: #9be0b2;
-  text-transform: uppercase;
-  margin: 0;
-  font-weight: 900;
-  letter-spacing: 8%;
 }
 
 .subtitle {
@@ -256,37 +238,13 @@ export default {
   font-weight: bold;
   word-spacing: 1rem !important;
 }
-/* Section Styles */
-.section {
-  padding: 10px 20px;
-  width: 90%;
-  margin: auto;
-}
+
 
 @media screen and (max-width: 768px) {
-  .section {
-    padding: 0px 20px;
-  }
   .description {
     margin-top: 0;
     padding: 20px 20px;
   }
-}
-
-
-.section-title {
-  display: flex;
-  align-items: center;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: white;
-  background-color: transparent;
-  font-family: 'Agressive', 'Noto Sans TC', sans-serif;
-  background-image: linear-gradient(to right, #FFFFFF, #999999);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
 }
 
 /* Card Styles */
@@ -473,10 +431,6 @@ export default {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .main-title {
-    font-size: 2.5rem;
-  }
-  
   .subtitle {
     font-size: 1.5rem;
   }

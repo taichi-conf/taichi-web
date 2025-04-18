@@ -15,7 +15,7 @@
           class="menu-item">
           {{ item.name }}
         </router-link>
-        <a href="" class="submit-button">論文徵稿</a>
+        <a href="" class="submit-button" target="_blank">論文徵稿</a>
       </div>
       
       <!-- Mobile Menu Icon -->
@@ -39,7 +39,7 @@
           @click="changePath(item.url)">
           {{ item.name }}
         </div>
-        <a href="/submit" class="drawer-submit-button">論文徵稿</a>
+        <a href="" class="drawer-submit-button" target="_blank">論文徵稿</a>
       </div>
     </transition>
   </div>
@@ -52,9 +52,9 @@ export default {
     return {
       menuList: [
         { name: '首頁', url: '/' },
-        { name: '組織&成員', url: '/' }, //members
+        { name: '組織&成員', url: '/members' }, //members
         { name: '場地', url: '/' }, //venues
-        { name: '設計競賽', url: '/' } //competitions
+        { name: '設計競賽', url: '/competitions' } //competitions
       ],
       iconSrc: require('@/assets/TAICHI’25.svg'),
       drawerStatus: false,
@@ -128,6 +128,7 @@ export default {
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: opacity 0.3s;
+  cursor: pointer;
 }
 
 .submit-button:hover {
