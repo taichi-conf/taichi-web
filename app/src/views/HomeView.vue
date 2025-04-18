@@ -13,7 +13,7 @@
             <div class="date">2025.8.2-3</div>
             <div class="location">國立清華大學 National Tsing Hua University</div>
           </div>
-          <router-link to="" class="submit-button"><img src="@/assets/論文投稿.png" alt="submition-button"/></router-link>
+          <a href="https://easychair.org/conferences/?conf=taichi2025" class="submit-button" target="_blank"><img src="@/assets/論文投稿.png" alt="submition-button"/></a>
         </div>
 
       </section>
@@ -114,12 +114,11 @@
       </section>
 
       <!-- Sponsors Section -->
-      <section class="section">
+      <!-- <section class="section">
         <h2 class="section-title">贊助單位 SPONSORS</h2>
         <div class="sponsors-card">
-          <!-- Sponsors will be added here -->
         </div>
-      </section>
+      </section> -->
     </div>
     <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
@@ -141,13 +140,6 @@ export default {
 </script>
 
 <style scoped>
-/* General Styles */
-.inclusigen-container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
-}
-
 /* Hero Section */
 .hero-section {
   color: white;

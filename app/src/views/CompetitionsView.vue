@@ -1,6 +1,7 @@
 <!-- DesignCompetition.vue -->
 <template>
   <div class="page-container">
+    <div class="inclusigen-container">
     <div style="height: 60px;"></div>
     <div class="section">
       <!-- Header Section -->
@@ -225,6 +226,7 @@
           </ol>
         </div>
       </div>
+    </div>
     </div>
     <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>

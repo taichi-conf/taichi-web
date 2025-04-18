@@ -15,7 +15,7 @@
           class="menu-item">
           {{ item.name }}
         </router-link>
-        <a href="" class="submit-button" target="_blank">論文徵稿</a>
+        <a href="https://easychair.org/conferences/?conf=taichi2025" class="submit-button" target="_blank">論文徵稿</a>
       </div>
       
       <!-- Mobile Menu Icon -->

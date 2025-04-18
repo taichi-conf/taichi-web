@@ -1,6 +1,7 @@
 // OrganizationPage.vue
 <template>
   <div class="page-container">
+    <div class="inclusigen-container">
     <div style="height: 60px;"></div>
     <div class="section">
       <h1 class="page-title">組織 & 成員</h1>
@@ -145,8 +146,9 @@
           </div>
         </div>
       </div>
-      
     </div>
+    </div>
+
     <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
 </template>
@@ -179,7 +181,7 @@ export default {
       ],
       publicationChairs: [
         { name: '袁千雯', affiliation: '國立臺灣大學創新設計學院' },
-        { name: '畢南怡', affiliation: '國立臺灣大學 資訊管理學系暨研究所' }
+        { name: '畢南怡', affiliation: '國立臺灣大學資訊管理學系暨研究所' }
       ],
       sponsorChairs: [
         { name: '陳書儀', affiliation: '銘傳大學資訊管理學系' }

@@ -99,7 +99,12 @@ body::after {
   font-weight: 500;
   letter-spacing: 1.4px;
 }
-
+/* General Styles */
+.inclusigen-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
 .page-container {
   overflow-y: auto;
   height: calc(100vh - 65px);
