@@ -15,7 +15,7 @@
           class="menu-item">
           {{ item.name }}
         </router-link>
-        <a href="/submit" class="submit-button">論文徵稿</a>
+        <a href="" class="submit-button">論文徵稿</a>
       </div>
       
       <!-- Mobile Menu Icon -->

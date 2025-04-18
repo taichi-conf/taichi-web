@@ -4,7 +4,7 @@
     <div class="inclusigen-container">
       <!-- Hero Section -->
       <section class="hero-section">
-        <img v-no-right-click src="@/assets/logo.png" alt="INCLUSIGEN" class="logo" />
+        <img src="@/assets/logo.gif" alt="INCLUSIGEN" class="logo" />
         <h2 class="subtitle">第十一屆台灣人機互動研討會</h2>
         <h3 class="english-subtitle">The 11th Annual Conference of Taiwan Association of Computer Human Interaction</h3>
         
@@ -13,7 +13,7 @@
             <div class="date">2025.8.2-3</div>
             <div class="location">國立清華大學 National Tsing Hua University</div>
           </div>
-          <router-link to="/submit" class="submit-button"><img src="@/assets/論文投稿.png" alt="submition-button"/></router-link>
+          <router-link to="/" class="submit-button"><img src="@/assets/論文投稿.png" alt="submition-button"/></router-link>
         </div>
 
       </section>
@@ -241,7 +241,7 @@ export default {
   margin: auto;
   margin-top: 30px;
   text-align: center;
-  background-color: rgba(153, 153, 153, 0.6);
+  background-color: RGB(153, 153, 153, 30%);
   border-radius: 30px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -291,7 +291,7 @@ export default {
 
 /* Card Styles */
 .card, .competition-card, .venue-card, .organizers-card, .sponsors-card {
-  background-color: rgba(153, 153, 153, 0.6);
+  background-color: rgba(153, 153, 153, 0.3);
   border-radius: 30px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -369,7 +369,6 @@ export default {
 .logo {
   width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 .logo-separator {
