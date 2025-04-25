@@ -165,18 +165,21 @@ body::after {
   font-weight: bold;
   padding: 20px 40px;
 }
-
-@media screen and (max-width: 768px) {
-  .card {
-    padding: 10px 10px;
-  }
-}
-
 .card-content {
   padding: 10px 30px;
   font-family: 'noto sans', sans-serif;
   letter-spacing: 1px;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 10px 10px;
+  }
+  .card-content {
+    padding: 10px 20px;
+  }
+}
+
 
 .card-title {
   font-size: 32px;

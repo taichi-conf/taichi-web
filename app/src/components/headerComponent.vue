@@ -15,7 +15,7 @@
           class="menu-item">
           {{ item.name }}
         </router-link>
-        <a href="https://easychair.org/conferences/?conf=taichi2025" class="submit-button" target="_blank">論文徵稿</a>
+        <router-link to="/submit" class="submit-button">論文徵稿</router-link>
       </div>
       
       <!-- Mobile Menu Icon -->
@@ -53,8 +53,8 @@ export default {
       menuList: [
         { name: '首頁', url: '/' },
         { name: '組織&成員', url: '/members' }, //members
-        { name: '場地', url: '/' }, //venues
-        { name: '設計競賽', url: '/competitions' } //competitions
+        { name: '場地', url: '/venues' }, //venues
+        { name: '設計競賽', url: '/competitions' }, //competitions
       ],
       iconSrc: require('@/assets/TAICHI’25.svg'),
       drawerStatus: false,

@@ -25,12 +25,29 @@ const routes = [
     path: '/competitions',
     name: 'competitions',
     component: CompetitionsView
+  },
+  {
+    path: '/submit',
+    name: 'submit',
+    component: () => import('../views/SubmitView.vue')
   }
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    // if the route has a hash, scroll to the element
+    if (to.hash) {
+      return { selector: to.hash }
+    }
+    // if using browser back/forward, restore position
+    if (savedPosition) {
+      return savedPosition
+    }
+    // otherwise scroll to top
+    return { left: 0, top: 0 }
+  }
 })
 
 export default router

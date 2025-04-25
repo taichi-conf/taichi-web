@@ -31,7 +31,7 @@
             <h3 class="card-title">論文 FULL PAPER & 設計論文 PICTORIAL</h3>
             <div class="card-info">
               <div class="deadline">截稿日: 2025.6.10</div>
-              <router-link to="" class="purple-button">了解更多</router-link>
+              <router-link to="/submit#full-paper" class="purple-button">了解更多</router-link>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
             <h3 class="card-title">海報論文 POSTER AND LATE-BREAKING WORK & 互動展示論文 INTERACTIVITY AND DEMO</h3>
             <div class="card-info">
               <div class="deadline">截稿日: 2025.6.16</div>
-              <router-link to="" class="purple-button">了解更多</router-link>
+              <router-link to="/submit#poster" class="purple-button">了解更多</router-link>
             </div>
           </div>
         </div>
@@ -84,8 +84,6 @@
         <div class="venue-card">
           <div class="venue-image-container">
             <VenueSlideshow />
-            <!-- <img src="@/assets/清大校門.jpg" alt="清大校門" class="venue-image">
-            <div class="venue-image-caption">清大校門</div> -->
           </div>
           
           <div class="venue-description">
