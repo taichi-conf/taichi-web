@@ -115,9 +115,9 @@
                   <h3>1. Full Paper 論文</h3>
 
                   <div class="deadline">
-                    <h4>截稿日：2024/06/10</h4>
-                    <h4>結果通知：2024/07/11</h4>
-                    <h4>完稿日：2024/07/25</h4>
+                    <h4>截稿日：2025/06/10</h4>
+                    <h4>結果通知：2025/07/11</h4>
+                    <h4>完稿日：2025/07/25</h4>
                   </div>
                   <div class="small-content">
                     <p>論文為呈現完整且尚未公開發表之新研究成果的主要媒介，建議投稿主題請參閱研討會主題；通過審查的論文將被排入研討會發表議程。</p>
@@ -139,9 +139,9 @@
                   <!-- Section 2 -->
                   <h3>2. Pictorial 設計論文：投稿系統連結</h3>
                   <div class="deadline">
-                    <h4>截稿日：2024/06/10</h4>
-                    <h4>結果通知：2024/07/11</h4>
-                    <h4>完稿日：2024/07/25</h4>
+                    <h4>截稿日：2025/06/10</h4>
+                    <h4>結果通知：2025/07/11</h4>
+                    <h4>完稿日：2025/07/25</h4>
                   </div>
                   <div class="small-content">
                     <p>請作者參考 ACM DIS2025 的說明來進行 Pictorial 格式準備：<a href="https://dis.acm.org/2025/call-for-pictorials/" target="_blank">DIS2025 Call for Pictorials</a>。</p>
