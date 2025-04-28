@@ -29,9 +29,11 @@
         <div class="card">
           <div class="card-content">
             <h3 class="card-title">論文 FULL PAPER & 設計論文 PICTORIAL</h3>
-            <div class="card-info">
-              <div class="deadline">截稿日: 2025.6.10</div>
-              <router-link to="/submit#full-paper" class="purple-button">了解更多</router-link>
+            <div class="card-info" style="flex-wrap: wrap;">
+              <div class="deadline">截稿日：2025/06/10<br>
+                結果通知：2025/07/11<br>
+                完稿日：2025/07/25 </div>
+              <a href="https://easychair.org/cfp/TAICHI2025" target="_blank" class="purple-button">了解更多</a>
             </div>
           </div>
         </div>
@@ -40,8 +42,11 @@
           <div class="card-content">
             <h3 class="card-title">海報論文 POSTER AND LATE-BREAKING WORK & 互動展示論文 INTERACTIVITY AND DEMO</h3>
             <div class="card-info">
-              <div class="deadline">截稿日: 2025.6.16</div>
-              <router-link to="/submit#poster" class="purple-button">了解更多</router-link>
+              <div class="deadline">截稿日：2025/06/16 <br>
+                結果通知：2025/07/14<br>
+                完稿日：2025/07/28</div>
+              <!-- <router-link to="/submit#poster" class="purple-button">了解更多</router-link> -->
+              <a href="https://easychair.org/cfp/TAICHI2025" target="_blank" class="purple-button">了解更多</a>
             </div>
           </div>
         </div>
@@ -276,6 +281,7 @@ export default {
 
 .deadline {
   font-size: 26px;
+  line-height: 1.8;
 }
 
 /* Competition Styles */
