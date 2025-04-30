@@ -5,17 +5,18 @@
       <!-- Hero Section -->
       <section class="hero-section">
         <img src="https://raw.githubusercontent.com/taichi-conf/taichi-web/refs/heads/develop/app/src/assets/logo.gif" alt="INCLUSIGEN" class="logo" />
-        <h2 class="subtitle">第十一屆台灣人機互動研討會</h2>
-        <h3 class="english-subtitle">The 11th Annual Conference of Taiwan Association of Computer Human Interaction</h3>
-        
-        <div class="conference-info">
-          <div>
-            <div class="date">2025.8.2-3</div>
-            <div class="location">國立清華大學 National Tsing Hua University</div>
+        <div style="width: 90%;margin: auto;">
+          <h2 class="subtitle">第十一屆台灣人機互動研討會</h2>
+          <h3 class="english-subtitle">The 11th Annual Conference of Taiwan Association of Computer Human Interaction</h3>
+          
+          <div class="conference-info">
+            <div>
+              <div class="date">2025.8.2-3</div>
+              <div class="location">國立清華大學 National Tsing Hua University</div>
+            </div>
+            <a href="https://easychair.org/conferences/?conf=taichi2025" class="submit-button" target="_blank"><img src="@/assets/論文投稿.png" alt="submition-button"/></a>
           </div>
-          <a href="https://easychair.org/conferences/?conf=taichi2025" class="submit-button" target="_blank"><img src="@/assets/論文投稿.png" alt="submition-button"/></a>
         </div>
-
       </section>
       <section class="section">
         <div class="description">
@@ -149,7 +150,7 @@ export default {
   padding: 90px 20px 0px 20px;
   text-align: left;
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
