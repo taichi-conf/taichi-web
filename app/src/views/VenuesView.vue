@@ -16,12 +16,12 @@
                     </div>
                     
                     <p class="venue-description">
-                      本次研討會將於台達館舉辦，位於清華校園核心地帶，從校門口步行只需約15分鐘。館內的璟德講堂為現代化多功能演講與表演場地，擁有優雅建築與先進設備，可容納各式論壇、學術研討及藝術展演。講堂以推動人文薈萃、知識交流為使命，成為校內外師生及專家學者共享智慧的殿堂，展現清華卓越的文化底蘊。
+                      本屆研討會將於國立清華大學學習資源中心（旺宏館）前棟的國際會議廳隆重登場。會議廳位於校園中央大草坪旁，距光復路正門僅 7–10 分鐘步程，動線清晰且無障礙友善。採階梯式劇院設計的會場共設 404 席（含 4 席無障礙座位）。本次研討會匯聚國內外人機互動領域的學者與實務專家，勢必激盪出嶄新的研究視角與產業火花，展現清華大學深厚的科技與人文底蘊。
                     </p>
                 </div>
             </div>
             
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-content">
                     <h2 class="section-title">路線指南 GUIDE TO NTHU DELTA HALL</h2>
                     
@@ -53,9 +53,10 @@
                     </section>
                     
                 </div>
-            </div>
+            </div> -->
         </div>
       </div>
+      <div style="height: 60px;"></div>
       <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
 </template>

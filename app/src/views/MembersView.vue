@@ -103,7 +103,7 @@
         </div>
         <div class="card">
           <div class="card-content">
-            <h3>PANEL - 科技藝術：</h3>
+            <h3>PANEL - 科技藝術與人機互動：</h3>
             <div v-for="(chair, index) in panelChairsTechArt" :key="`panel-tech-${index}`">
               {{ chair.name }} / {{ chair.affiliation }}
             </div>
@@ -188,7 +188,7 @@ export default {
       ],
       publicityChairs: [
         { name: '侯宗佑', affiliation: '國立政治大學傳播學院' },
-        { name: '王采翎', affiliation: '國立清華大學AIMS Fellows' }
+        { name: '王采翎', affiliation: '國立清華大學 International Intercollegiate Ph.D. Program' }
       ],
       panelChairsHCI: [
         { name: '羅仕宇', affiliation: '國立陽明交通大學傳播所' },
@@ -205,7 +205,8 @@ export default {
         { name: '何捷睿', affiliation: '國立清華大學服務科學研究所' }
       ],
       studentVolunteerChairs: [
-        { name: '施孟廷', affiliation: '國立陽明交通大學資訊工程系' }
+        { name: '施孟廷', affiliation: '國立陽明交通大學資訊工程系' },
+        { name: '黃瑩瑩', affiliation: '國立清華大學藝術與設計系' }
       ]
     }
   }

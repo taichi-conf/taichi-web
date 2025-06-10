@@ -39,16 +39,26 @@
             alt: '樹蔭走道', 
             caption: '樹蔭走道' 
           },
-          { 
-            src: require('@/assets/台達館.jpg'), 
-            alt: '台達館', 
-            caption: '台達館' 
+          {
+            src: require('@/assets/國際會議廳-1.png'),
+            alt: '國際會議廳',
+            caption: '國際會議廳'
           },
-          { 
-            src: require('@/assets/台達館廣場.jpg'), 
-            alt: '台達館廣場', 
-            caption: '台達館廣場' 
+          {
+            src: require('@/assets/國際會議廳-2.jpg'),
+            alt: '國際會議廳',
+            caption: '國際會議廳'
           }
+          // { 
+          //   src: require('@/assets/台達館.jpg'), 
+          //   alt: '台達館', 
+          //   caption: '台達館' 
+          // },
+          // { 
+          //   src: require('@/assets/台達館廣場.jpg'), 
+          //   alt: '台達館廣場', 
+          //   caption: '台達館廣場' 
+          // }
         ],
         currentImageIndex: 0,
         timer: null

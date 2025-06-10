@@ -27,10 +27,10 @@
       <div class="card">
         <div class="card-content timeline-content">
           <ul class="timeline-list">
-            <li>報名期間：2025年4月1日～6月10日</li>
+            <li>報名期間：2025年4月1日～6月16日</li>
             <li>請在此提交您的提案：<a href="https://docs.google.com/forms/d/e/1FAIpQLSd4paYy2YgGtsAShoZITfy5_i9JI1e2RMOeFl5Nfc60ouvD-g/viewform" class="form-link" target="_blank">GOOGLE FORM</a></li>
             <li>線上說明會：2025年5月9日 (五) 下午 15:00-17:00</li>
-            <li>報名截止日：2025年6月10日</li>
+            <li>報名截止日：2025年6月16日 (extended)</li>
             <li>晉級決審團隊通知：2025年6月24日</li>
             <li>工作坊與設備寄送期間：2025年6月30日～7月2日</li>
             <li>開發期間：2025年7月2日～7月31日</li>
@@ -119,7 +119,7 @@
           
           <h3>提案繳交以及儀器交付資訊：</h3>
           <ol class="submission-list" style="font-weight: 400;">
-            <li>提案提交：請於 6月10日 前提交您的提案（2-4 頁，SIGCHI 格式），包括專案構想、技術細節及應用情境等。 </li>
+            <li>提案提交：請於 6月16日 前提交您的提案（2-4 頁，SIGCHI 格式），包括專案構想、技術細節及應用情境等。 </li>
             <li>設備寄送與實體工作坊：若提案通過，競賽單位將寄送 SOL GLASSES 套組，並提供 SOL SDK；並於 6 月 30 日至 7 月 2 日 舉辦實體工作坊，協助參賽者實作。</li>
             <li>
               開發期：自 7 月 2 日 起至 7 月 31 日，為期約一個月，完成專案開發。
@@ -133,7 +133,7 @@
           
           <p class="team-info" style="font-size: 20px; line-height: 26px;margin-top:30px;">團隊人數：2~5 位學生（高中、大學或研究所在學皆可）。</p>
           <p class="registration-note" style="font-size: 20px; line-height: 26px;">註冊要求：至少一名成員需註冊參加 TAICHI 2025 才能進行展示並角逐獎項。</p>
-          <p class="deadline" style="font-size: 20px; line-height: 26px;margin-top:30px;">提案截止期限：2025年6月10日</p>
+          <p class="deadline" style="font-size: 20px; line-height: 26px;margin-top:30px;">提案截止期限：2025年6月16日 (extended)</p>
           <p class="submission-link" style="font-size: 20px; line-height: 26px;">提案繳交連結：<a href="https://forms.gle/TbdFy5yaQbEKgFiZ6" target="_blank">HTTPS://FORMS.GLE/TbdFy5yaQbEKgFiZ6</a></p>
         </div>
       </div>
@@ -169,7 +169,7 @@
             如果還有疑問，或正在尋找合作隊友，歡迎加入我們的 Discord 社群！在這裡你可以討論技術、尋找組隊夥伴，以及獲得最新活動公告與競賽資訊。立即加入，一起腦力激盪吧！
           </p>
           <p class="discord-link">
-            <a href="https://discord.gg/3YvRpy55" target="_blank">https://discord.gg/3YvRpy55</a>
+            <a href="https://discord.gg/4g8teF8wpw" target="_blank">https://discord.gg/4g8teF8wpw</a>
           </p>
         </div>
       </div>
