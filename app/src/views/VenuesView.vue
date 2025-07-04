@@ -21,7 +21,7 @@
                 </div>
             </div>
             
-            <!-- <div class="card">
+            <div class="card">
                 <div class="card-content">
                     <h2 class="section-title">路線指南 GUIDE TO NTHU DELTA HALL</h2>
                     
@@ -32,7 +32,7 @@
                         :to="{ hash: `#${place.id}` }"
                         class="route-link"
                       >
-                        • 由 <strong>{{ place.name }}</strong> 到 <strong>台達館</strong>
+                        • 由 <strong>{{ place.name }}</strong> 到 <strong>旺宏館</strong>
                       </router-link>
                     </div>
 
@@ -42,7 +42,7 @@
                       :id="place.id"
                       class="venue-routes"
                     >
-                      <h3>• 由 <strong>{{ place.name }}</strong> 到 <strong>台達館</strong></h3>
+                      <h3>• 由 <strong>{{ place.name }}</strong> 到 <strong>旺宏館</strong></h3>
                       <div class="map-image-container">
                         <img
                           :src="require(`@/assets/venue/route/${place.id}.jpg`)"
@@ -53,7 +53,7 @@
                     </section>
                     
                 </div>
-            </div> -->
+            </div>
         </div>
       </div>
       <div style="height: 60px;"></div>

@@ -53,6 +53,47 @@
         </div>
       </section>
 
+      <!-- Keynote Speakers Section -->
+      <section class="section">
+        <h2 class="section-title">主講者 KEYNOTE SPEAKERS</h2>
+        <div class="card">
+            <div class="card-content">
+              <div class="speakers-container">
+                <!-- Speaker 1 -->
+                <div class="speaker">
+                    <img src="@/assets/speakers1.jpg" alt="Professor Duncan P Brumby" class="speaker-image">
+                    <div class="speaker-content">
+                        <h1 class="speaker-title">Generative AI: Lessons from Dickens for the Information Age</h1>
+                        <h2 class="speaker-name">Professor Duncan P Brumby</h2>
+                        <p class="speaker-affiliation">UCLIC, University College London</p>
+                    </div>
+                </div>
+
+                <!-- Speaker 2 -->
+                <div class="speaker">
+                    <img src="@/assets/speakers2.jpg" alt="Professor Uichin Lee" class="speaker-image">
+                    <div class="speaker-content">
+                        <h1 class="speaker-title">Data-Driven Digital Health and Wellbeing</h1>
+                        <h2 class="speaker-name">Professor Uichin Lee</h2>
+                        <p class="speaker-affiliation">School of Computing, KAIST<br>Graduate School of Data Science, KI Health Science Institute</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agenda Section -->
+      <section class="section">
+        <h2 class="section-title">議程 AGENDA</h2>
+        <div class="card">
+          <div class="agenda-images">
+            <img src="@/assets/首頁議程/day1-03.png" alt="Agenda Day 1" class="agenda-image">
+            <img src="@/assets/首頁議程/day2-04.png" alt="Agenda Day 2" class="agenda-image">
+          </div>
+        </div>
+      </section>
+
       <!-- Design Competition Section -->
       <section class="section">
         <h2 class="section-title">設計競賽 DESIGN COMPETITIONS</h2>
@@ -118,11 +159,16 @@
       </section>
 
       <!-- Sponsors Section -->
-      <!-- <section class="section">
+      <section class="section">
         <h2 class="section-title">贊助單位 SPONSORS</h2>
         <div class="sponsors-card">
+          <div class="sponsors-logo-container">
+            <img src="@/assets/贊助單位/Ganzin_dark_square@800px.png 的副本.png" alt="Ganzin" class="sponsor-logo">
+            <img src="@/assets/贊助單位/acm_4c_grad_pos.png" alt="ACM" class="sponsor-logo">
+            <img src="@/assets/贊助單位/國科會標誌組合PNG.png" alt="國科會" class="sponsor-logo">
+          </div>
         </div>
-      </section> -->
+      </section>
     </div>
     <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
@@ -245,7 +291,7 @@ export default {
 
 /* Card Styles */
 .card, .competition-card, .venue-card, .organizers-card, .sponsors-card {
-  background-color: rgba(153, 153, 153, 0.3);
+  background-color: rgba(153, 153, 153, 0.4);
   border-radius: 30px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -426,6 +472,20 @@ export default {
   object-fit: contain;
 }
 
+.sponsors-logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Add sponsor-logo style for consistency */
+.sponsor-logo {
+  width: 30%;
+  object-fit: contain;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .subtitle {
@@ -449,6 +509,133 @@ export default {
   
   .glasses-image-container {
     width: 100%;
+  }
+}
+
+.speakers-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.speaker {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.speaker-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+
+.speaker-content {
+    flex: 1;
+    color: white;
+}
+
+.speaker-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.speaker-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.speaker-affiliation {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .speaker {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .speaker-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .speaker-title {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .speaker-name {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .speaker-affiliation {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .speakers-container {
+        gap: 40px;
+    }
+
+    .speaker-title {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    .speaker-name {
+        font-size: 1.2rem;
+    }
+
+    .speaker-affiliation {
+        font-size: 0.9rem;
+    }
+}
+
+/* Agenda Section Styles */
+.agenda-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px 0;
+}
+
+.agenda-image {
+  width: 90%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .agenda-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .agenda-image {
+    width: 100%;
+    max-width: 100%;
   }
 }
 </style>

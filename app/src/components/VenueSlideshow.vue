@@ -34,6 +34,12 @@
             alt: '成功湖', 
             caption: '成功湖' 
           },
+          {
+            //Louisa_Coffee.jpg
+            src: require('@/assets/Louisa_Coffee.jpg'),
+            alt: '路易莎咖啡',
+            caption: '路易莎咖啡'
+          },
           { 
             src: require('@/assets/樹蔭走道.jpg'), 
             alt: '樹蔭走道', 

@@ -15,7 +15,7 @@
           class="menu-item">
           {{ item.name }}
         </router-link>
-        <!-- <router-link to="/submit" class="submit-button">論文徵稿</router-link> -->
+        <a href="https://taiwanchi.kktix.cc/events/202508020803" target="_blank" class="menu-item">註冊會議</a>
         <a href="https://easychair.org/cfp/TAICHI2025" class="submit-button" target="_blank">論文徵稿</a>
       </div>
       
@@ -54,6 +54,7 @@ export default {
       menuList: [
         { name: '首頁', url: '/' },
         { name: '組織&成員', url: '/members' }, //members
+        { name: '議程', url: '/agenda' }, //agenda
         { name: '場地', url: '/venues' }, //venues
         { name: '設計競賽', url: '/competitions' }, //competitions
       ],
