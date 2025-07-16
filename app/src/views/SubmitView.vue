@@ -215,7 +215,6 @@
         </div>
       </div>
     </div>
-    <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
 </template>
   
@@ -293,6 +292,10 @@ export default {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
+}
+
+.inclusigen-container {
+  flex: 1 0 auto;
 }
 
 </style>

@@ -175,7 +175,6 @@
       </div>
     </div>
     </div>
-    <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
 </template>
 
@@ -368,5 +367,8 @@ h3 {
 
 .ip-list p {
   margin-bottom: 10px;
+}
+.inclusigen-container {
+  flex: 1 0 auto;
 }
 </style>

@@ -2,6 +2,7 @@
   <div>
     <headerComponent class="header-container"></headerComponent>
     <router-view/>
+    <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
 </template>
 <script>
@@ -85,20 +86,6 @@ body::after {
   opacity: 0.9;
 }
 
-.footer {
-  position: relative;
-  top: 10px;
-  left: 0;
-  width: calc(100% - 40px);
-  height: 50px;
-  background-color: #f2f2f2;
-  line-height: 50px;
-  padding: 0 0 0 40px;
-  font-size: 14px;
-  color: #000;
-  font-weight: 500;
-  letter-spacing: 1.4px;
-}
 /* General Styles */
 .inclusigen-container {
   margin: 0 auto;
@@ -107,12 +94,19 @@ body::after {
 }
 .page-container {
   overflow-y: auto;
-  height: calc(100vh - 65px);
+  height: calc(100vh - 115px) !important;
+  min-height: calc(100vh - 115px) !important;
+  width: 100vw !important;
   color: #fff;
+  display: flex;
+  flex-direction: column;
 }
+
 @media (max-width: 768px) {
   .page-container {
-    height: calc(100vh - 85px);
+    height: calc(100vh - 135px) !important;
+    min-height: calc(100vh - 135px) !important;
+    overflow-x: hidden;
   }
 }
 
@@ -190,5 +184,18 @@ body::after {
   line-height: 40px;
 }
 
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding: 0;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+}
 
 </style>

@@ -148,8 +148,6 @@
       </div>
     </div>
     </div>
-
-    <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
 </template>
 
@@ -234,5 +232,8 @@ export default {
 
 .chair-section {
   margin-bottom: 30px;
+}
+.inclusigen-container {
+  flex: 1 0 auto;
 }
 </style>

@@ -36,7 +36,6 @@
           </div>
         </div>
       </div>
-      <div class="footer">COPYRIGHT © 2025 TAICHI</div>
     </div>
   </template>
     
@@ -192,11 +191,7 @@
     }
   }
   
-  .page-container {
-    min-height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-  }
+
   .inclusigen-container {
     flex: 1 0 auto;
   }
@@ -204,11 +199,11 @@
     flex-shrink: 0;
     width: 100%;
     text-align: center;
-    padding: 0;
     color: #000;
     font-size: 1rem;
     letter-spacing: 2px;
+    padding: 0;
     position: relative;
-    bottom: 100px;
+    height: 50px;
   }
   </style>

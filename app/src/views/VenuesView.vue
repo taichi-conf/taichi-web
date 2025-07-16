@@ -57,7 +57,6 @@
         </div>
       </div>
       <div style="height: 60px;"></div>
-      <div class="footer">COPYRIGHT © 2025 TAICHI</div>
   </div>
 </template>
   
@@ -136,5 +135,8 @@ export default {
 
 .map-slide-container {
   margin: 40px 0;
+}
+.inclusigen-container {
+  flex: 1 0 auto;
 }
 </style>

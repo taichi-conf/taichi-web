@@ -15,7 +15,7 @@
           class="menu-item">
           {{ item.name }}
         </router-link>
-        <a href="https://taiwanchi.kktix.cc/events/202508020803" target="_blank" class="menu-item">註冊會議</a>
+        <router-link to="/register" class="menu-item">註冊會議</router-link>
         <a href="https://easychair.org/cfp/TAICHI2025" class="submit-button" target="_blank">論文徵稿</a>
       </div>
       
@@ -40,7 +40,8 @@
           @click="changePath(item.url)">
           {{ item.name }}
         </div>
-        <a href="" class="drawer-submit-button" target="_blank">論文徵稿</a>
+        <div class="drawer-item drawer-submit-button" @click="changePath('/register')">註冊會議</div>
+        <a href="https://easychair.org/cfp/TAICHI2025" class="drawer-submit-button" target="_blank">論文徵稿</a>
       </div>
     </transition>
   </div>
