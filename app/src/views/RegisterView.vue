@@ -7,11 +7,13 @@
         <div class="container">
           <div class="register-section">
             <h2 class="section-title">個人報名</h2>
+            <span>早鳥期限 2025/07/25</span>
             <p>請至 KKTIX 頁面連結進行報名。</p>
             <a href="https://taiwanchi.kktix.cc/events/202508020803" target="_blank" class="register-button">前往 KKTIX 報名</a>
           </div>
           <div class="register-section">
-            <h2 class="section-title">團體報名 <span style="font-size: 16px; color: #888;">(截止日至 2025/7/25 )</span></h2>
+            <h2 class="section-title">團體報名</h2>
+            <span>團體報名期限 2025/07/27</span>
             <p>為提供學校、實驗室、機構中心或公司行號等單位進行團體報名 (無折扣優惠)，團體報名可填寫Excel表單 (範例：
               <a href="https://docs.google.com/spreadsheets/d/1azzmT4kD52mMuT8ENujrTun1Pb-cj-sK/edit?usp=share_link&ouid=114976198777232289975&rtpof=true&sd=true" target="_blank">Excel表單下載</a> )。
               請自行結算出正確團體報名金額後，匯款至下列華南商業銀行帳戶，進行團體報名：</p>

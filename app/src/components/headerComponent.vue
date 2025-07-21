@@ -16,7 +16,7 @@
           {{ item.name }}
         </router-link>
         <router-link to="/register" class="menu-item">註冊會議</router-link>
-        <a href="https://easychair.org/cfp/TAICHI2025" class="submit-button" target="_blank">論文徵稿</a>
+        <a href="https://taichi2025.taiwanchi.org/#/register" class="submit-button" target="_blank">註冊會議</a>
       </div>
       
       <!-- Mobile Menu Icon -->
@@ -41,7 +41,7 @@
           {{ item.name }}
         </div>
         <div class="drawer-item drawer-submit-button" @click="changePath('/register')">註冊會議</div>
-        <a href="https://easychair.org/cfp/TAICHI2025" class="drawer-submit-button" target="_blank">論文徵稿</a>
+        <a href="https://taichi2025.taiwanchi.org/#/register" class="drawer-submit-button" target="_blank">註冊會議</a>
       </div>
     </transition>
   </div>

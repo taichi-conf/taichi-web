@@ -23,31 +23,22 @@
             <p>InclusiGen是一個我們針對此研討會所共創的新概念，其融合了Inclusive跟Generative兩個字，表明對生成式人工智慧或生成式設計的潮流，要優先考慮包容性--無論是在易使用性、多樣性、乃至於科技創新背後的道德及哲學考量等方面。我們冀望用InclusiGen體現一充滿憧憬的永續願景：運用人工智慧所生成的內容、創建的系統或創新應用，都能經過精心的設計，使之具有公平性，並且能夠為多元的使用者群體提供支援。無論是應用於以人為本的人工智慧研究、包容性設計方法、或負責任的人工智慧框架，這個新概念都蘊含了運用新科技創建公平服務予所有社群的人性關懷及共融價值。</p>
         </div>
       </section>
-      <!-- Call for Participations Section -->
+
+      <!-- Registration Section -->
       <section class="section">
-        <h2 class="section-title">徵稿資訊 CALL FOR PARTICIPATIONS</h2>
-        
+        <h2 class="section-title">註冊會議 REGISTRATION</h2>
         <div class="card">
           <div class="card-content">
-            <h3 class="card-title">論文 FULL PAPER & 設計論文 PICTORIAL</h3>
-            <div class="card-info" style="flex-wrap: wrap;">
-              <div class="deadline">截稿日：2025/06/20 (extended and final)<br>
-                結果通知：2025/07/21 (extended and final)<br>
-                完稿日：2025/07/28 (extended) </div>
-              <a href="https://easychair.org/cfp/TAICHI2025" target="_blank" class="purple-button">了解更多</a>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-content">
-            <h3 class="card-title">海報論文 POSTER AND LATE-BREAKING WORK & 互動展示論文 INTERACTIVITY AND DEMO</h3>
-            <div class="card-info">
-              <div class="deadline">截稿日：2025/06/23 (extended) <br>
-                結果通知：2025/07/17 (extended)<br>
-                完稿日：2025/07/28</div>
-              <!-- <router-link to="/submit#poster" class="purple-button">了解更多</router-link> -->
-              <a href="https://easychair.org/cfp/TAICHI2025" target="_blank" class="purple-button">了解更多</a>
+            <div class="card-info" style="flex-wrap: wrap; flex-direction: column; align-items: flex-start; gap: 20px;">
+              <div style="width: 100%;">
+                <h3 class="card-title" style="font-size: 1.5rem; margin-bottom: 10px;">個人報名</h3>
+                <div class="deadline">早鳥期限：2025/07/25</div>
+              </div>
+              <div style="width: 100%;margin-top: 20px;">
+                <h3 class="card-title" style="font-size: 1.5rem; margin-bottom: 10px;">團體報名</h3>
+                <div class="deadline">團體報名期限：2025/07/27</div>
+              </div>
+              <a href="https://taichi2025.taiwanchi.org/#/register" target="_blank" class="purple-button" style="align-self: flex-end;">註冊會議</a>
             </div>
           </div>
         </div>
@@ -87,9 +78,62 @@
       <section class="section">
         <h2 class="section-title">議程 AGENDA</h2>
         <div class="card">
-          <div class="agenda-images">
-            <img src="@/assets/首頁議程/day1-03.png" alt="Agenda Day 1" class="agenda-image">
-            <img src="@/assets/首頁議程/day2-04.png" alt="Agenda Day 2" class="agenda-image">
+          <div class="agenda-table-wrap">
+            <h3 class="agenda-date">DAY 1</h3>
+            <table class="agenda-table">
+              <tbody>
+                <tr><td class="agenda-time">09:00 - 09:30</td><td>Opening</td></tr>
+                <tr><td class="agenda-time">09:30 - 10:30</td><td><b>Opening Keynote: Generative AI: Lessons from Dickens for the Information Age</b><br><span class="agenda-speaker">講者：<b>Duncan Brumby</b><br>Professor, University College London<br>主持人：曾元琦 國立清華大學</span></td></tr>
+                <tr><td class="agenda-time">10:30 - 10:50</td><td>Coffee Break</td></tr>
+                <tr><td class="agenda-time">10:50 - 11:50</td><td><b>Paper Session 1: title TBA</b><br>主持人：TBD</td></tr>
+                <tr><td class="agenda-time">11:50 - 13:20</td><td>Lunch Break</td></tr>
+                <tr><td class="agenda-time">13:20 - 14:20</td><td><b>Paper Session 2: title TBA</b><br>主持人：TBD</td></tr>
+                <tr><td class="agenda-time">14:20 - 17:00</td><td>Poster session 1 and Demo<br><b>GANZIN X TAICHI 學生競賽</b><br>14:30 - 16:00 Panel 1: 心理學與人機互動<br>16:00 - 17:00 Tutorial: A tutorial on LLM-based HCI Research<br><span class="agenda-speaker">講者：<b>Uichin Lee</b><br>Professor, KAIST</span></td></tr>
+                <tr><td class="agenda-time">18:00 - 21:00</td><td>Banquet at 清大風雲樓4F:湖漾餐廳</td></tr>
+              </tbody>
+            </table>
+            <h3 class="agenda-date">DAY 2</h3>
+            <table class="agenda-table">
+              <tbody>
+                <tr><td class="agenda-time">09:00 - 10:00</td><td><b>Paper Session 3: title TBA</b><br>主持人：TBD</td></tr>
+                <tr><td class="agenda-time">10:00 - 10:20</td><td>Coffee Break</td></tr>
+                <tr><td class="agenda-time">10:20 - 11:20</td><td><b>Paper Session 4: title TBA</b><br>主持人：TBD</td></tr>
+                <tr><td class="agenda-time">11:20 - 13:00</td><td>Lunch Break</td></tr>
+                <tr><td class="agenda-time">13:00 - 15:40</td><td>Poster session 2 and Demo<br>13:00 - 14:30 Panel 2: 科技藝術與人機互動<br>14:30 - 15:30 CSCW workshop</td></tr>
+                <tr><td class="agenda-time">15:40 - 16:40</td><td><b>Closing Keynote: Data-Driven Digital Health and Wellbeing</b><br><span class="agenda-speaker">講者：<b>Uichin Lee</b><br>Professor, KAIST<br>主持人：游創文 國立清華大學</span></td></tr>
+                <tr><td class="agenda-time">16:40 - 17:00</td><td>Award ceremony and Closing</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+            <!-- Call for Participations Section -->
+            <section class="section">
+        <h2 class="section-title">徵稿資訊 CALL FOR PARTICIPATIONS</h2>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title">論文 FULL PAPER & 設計論文 PICTORIAL</h3>
+            <div class="card-info" style="flex-wrap: wrap;">
+              <div class="deadline">截稿日：2025/06/20 (extended and final)<br>
+                結果通知：2025/07/21 (extended and final)<br>
+                完稿日：2025/07/28 (extended) </div>
+              <a href="https://easychair.org/cfp/TAICHI2025" target="_blank" class="purple-button">了解更多</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title">海報論文 POSTER AND LATE-BREAKING WORK & 互動展示論文 INTERACTIVITY AND DEMO</h3>
+            <div class="card-info">
+              <div class="deadline">截稿日：2025/06/23 (extended) <br>
+                結果通知：2025/07/17 (extended)<br>
+                完稿日：2025/07/28</div>
+              <!-- <router-link to="/submit#poster" class="purple-button">了解更多</router-link> -->
+              <a href="https://easychair.org/cfp/TAICHI2025" target="_blank" class="purple-button">了解更多</a>
+            </div>
           </div>
         </div>
       </section>
@@ -164,7 +208,6 @@
         <div class="sponsors-card">
           <div class="sponsors-logo-container">
             <img src="@/assets/贊助單位/Ganzin_dark_square@800px.png 的副本.png" alt="Ganzin" class="sponsor-logo">
-            <img src="@/assets/贊助單位/acm_4c_grad_pos.png" alt="ACM" class="sponsor-logo">
             <img src="@/assets/贊助單位/國科會標誌組合PNG.png" alt="國科會" class="sponsor-logo">
           </div>
         </div>
@@ -612,31 +655,6 @@ export default {
     }
 }
 
-/* Agenda Section Styles */
-.agenda-images {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 30px 0;
-}
-
-.agenda-image {
-  width: 90%;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .agenda-images {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .agenda-image {
-    width: 100%;
-    max-width: 100%;
-  }
-}
 .inclusigen-container {
   flex: 1 0 auto;
 }
