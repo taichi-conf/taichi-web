@@ -83,28 +83,38 @@
             <table class="agenda-table">
               <tbody>
                 <tr><td class="agenda-time">09:00 - 09:30</td><td>Opening</td></tr>
-                <tr><td class="agenda-time">09:30 - 10:30</td><td><b>Opening Keynote: Generative AI: Lessons from Dickens for the Information Age</b><br><span class="agenda-speaker">講者：<b>Duncan Brumby</b><br>Professor, University College London<br>主持人：曾元琦 國立清華大學</span></td></tr>
+                <tr><td class="agenda-time">09:30 - 10:30</td><td><b>Opening Keynote: Writing Now! Keeping the Human Voice in AI-Assisted Writing</b><br><span class="agenda-speaker">講者：<b>Duncan Brumby</b><br>Professor, University College London<br><br>主持人：曾元琦 國立清華大學</span></td></tr>
                 <tr><td class="agenda-time">10:30 - 10:50</td><td>Coffee Break</td></tr>
-                <tr><td class="agenda-time">10:50 - 11:50</td><td><b>Paper Session 1: title TBA</b><br>主持人：TBD</td></tr>
-                <tr><td class="agenda-time">11:50 - 13:20</td><td>Lunch Break</td></tr>
-                <tr><td class="agenda-time">13:20 - 14:20</td><td><b>Paper Session 2: title TBA</b><br>主持人：TBD</td></tr>
-                <tr><td class="agenda-time">14:20 - 17:00</td><td>Poster session 1 and Demo<br><b>GANZIN X TAICHI 學生競賽</b><br>14:30 - 16:00 Panel 1: 心理學與人機互動<br>16:00 - 17:00 Tutorial: A tutorial on LLM-based HCI Research<br><span class="agenda-speaker">講者：<b>Uichin Lee</b><br>Professor, KAIST</span></td></tr>
+                <tr><td class="agenda-time">10:50 - 11:38</td><td><b>Paper Session 1: 人工智慧、人際關係與社會連結 / AI, Relationships, and Social Connection</b><br><span class="agenda-speaker">主持人：許有真 國立清華大學</span></td></tr>
+                <tr><td class="agenda-time">11:38 - 13:20</td><td>Lunch Break</td></tr>
+                <tr><td class="agenda-time">13:20 - 14:20</td><td><b>Paper Session 2: 人機協作與創意設計 / Human-AI Collaboration and Creative Design</b><br><span class="agenda-speaker">主持人：張永儒 國立陽明交通大學</span></td></tr>
+                <tr><td class="agenda-time">14:20 - 17:00</td><td>
+                  <div class="agenda-item">Poster session 1 and Demo</div>
+                  <div class="agenda-item"><b>GANZIN X TAICHI 學生競賽</b></div>
+                  <div class="agenda-item">14:30 - 16:00 <b>Panel 1: 心理學與人機互動</b></div>
+                  <div class="agenda-item">16:00 - 17:00 <b>Panel 2: Ubicamp Panel (Uichin Lee+)</b></div>
+                </td></tr>
                 <tr><td class="agenda-time">18:00 - 21:00</td><td>Banquet at 清大風雲樓4F:湖漾餐廳</td></tr>
               </tbody>
             </table>
             <h3 class="agenda-date">DAY 2</h3>
             <table class="agenda-table">
               <tbody>
-                <tr><td class="agenda-time">09:00 - 10:00</td><td><b>Paper Session 3: title TBA</b><br>主持人：TBD</td></tr>
+                <tr><td class="agenda-time">09:00 - 10:00</td><td><b>Paper Session 3: 創新技術與智慧系統 / <br>Emerging Technologies and Intelligent Systems</b><br><span class="agenda-speaker">主持人：TBD</span></td></tr>
                 <tr><td class="agenda-time">10:00 - 10:20</td><td>Coffee Break</td></tr>
-                <tr><td class="agenda-time">10:20 - 11:20</td><td><b>Paper Session 4: title TBA</b><br>主持人：TBD</td></tr>
+                <tr><td class="agenda-time">10:20 - 11:20</td><td><b>Paper Session 4: 沉浸式體驗與混合實境 / <br>Immersive Experiences and Mixed Reality</b><br><span class="agenda-speaker">主持人：鄧善元 國立台灣大學</span></td></tr>
                 <tr><td class="agenda-time">11:20 - 13:00</td><td>Lunch Break</td></tr>
-                <tr><td class="agenda-time">13:00 - 15:40</td><td>Poster session 2 and Demo<br>13:00 - 14:30 Panel 2: 科技藝術與人機互動<br>14:30 - 15:30 CSCW workshop</td></tr>
-                <tr><td class="agenda-time">15:40 - 16:40</td><td><b>Closing Keynote: Data-Driven Digital Health and Wellbeing</b><br><span class="agenda-speaker">講者：<b>Uichin Lee</b><br>Professor, KAIST<br>主持人：游創文 國立清華大學</span></td></tr>
+                <tr><td class="agenda-time">13:00 - 15:40</td><td>
+                  <div class="agenda-item">Poster session 2 and Demo</div>
+                  <div class="agenda-item">13:00 - 14:30 <b>Panel 2: 科技藝術與人機互動</b></div>
+                  <div class="agenda-item">14:30 - 15:30 <b>CSCW workshop</b></div>
+                </td></tr>
+                <tr><td class="agenda-time">15:40 - 16:40</td><td><b>Closing Keynote: Data-Driven Digital Health and Wellbeing</b><br><span class="agenda-speaker">講者：<b>Uichin Lee</b><br>Professor, KAIST<br><br>主持人：游創文 國立清華大學</span></td></tr>
                 <tr><td class="agenda-time">16:40 - 17:00</td><td>Award ceremony and Closing</td></tr>
               </tbody>
             </table>
           </div>
+          <a href="#/agenda" class="purple-button agenda-button">詳細議程</a>
         </div>
       </section>
 
@@ -657,5 +667,98 @@ export default {
 
 .inclusigen-container {
   flex: 1 0 auto;
+}
+
+.agenda-date {
+  font-family: 'Agressive', sans-serif;
+  display: inline-block;
+  padding: 6px 18px 6px 18px;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #555;
+  background: linear-gradient(90deg, #A3D0B7 0%, #FAF1B4 100%);
+  border-radius: 0px 20px 0px 20px;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin: 0px 0 20px 0;
+  border: none;
+}
+.agenda-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 30px;
+  color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.agenda-table td {
+  padding: 18px 16px;
+  font-size: 1.5rem !important;
+  font-weight: bolder;
+  border-bottom: 2px solid rgba(255,255,255,0.15);
+  border-right: 2.5px solid rgba(163, 208, 183, 0.5); /* inner vertical border */
+  border-image: linear-gradient(90deg, #A3D0B7, #FAF1B4) 1;
+  vertical-align: middle;
+}
+.agenda-table tr td:last-child {
+  border-right: none;
+}
+.agenda-table tr:last-child td {
+  border-bottom: none;
+}
+.agenda-time {
+  font-weight: bold;
+  color: #fff;
+  width: 140px;
+  min-width: 110px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.agenda-speaker {
+  display: block;
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+.agenda-table {
+  border: 2px solid;
+  border-image: linear-gradient(90deg, #A3D0B7, #FAF1B4) 1;
+}
+@media (max-width: 768px) {
+  .agenda-table td {
+    padding: 10px 6px;
+    font-size: 0.95rem;
+  }
+  .agenda-time {
+    width: 80px;
+    min-width: 60px;
+    font-size: 0.95rem;
+  }
+  .agenda-date {
+    font-size: 1.1rem;
+  }
+}
+
+.agenda-item {
+  border-bottom: 1px solid #e0e0e0;
+  border-image: linear-gradient(90deg, #A3D0B7, #FAF1B4) 1;
+  padding: 6px 0;
+}
+.agenda-item:first-child {
+  padding: 0 0 6px 0;
+}
+.agenda-item:last-child {
+  border-bottom: none;
+  padding: 6px 0 0 0;
+}
+.agenda-button {
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
 }
 </style>
