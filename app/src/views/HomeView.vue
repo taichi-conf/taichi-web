@@ -761,4 +761,15 @@ export default {
   width: fit-content;
   margin: 0 auto;
 }
+.purple-button, .submit-button, .competion-button, .agenda-button {
+  transition: 0.2s;
+}
+.purple-button:hover, .submit-button:hover, .competion-button:hover, .agenda-button:hover,
+.purple-button:focus, .submit-button:focus, .competion-button:focus, .agenda-button:focus {
+  transform: scale(1.06);
+  box-shadow: 0 4px 16px rgba(100,0,100,0.18);
+  opacity: 0.92;
+  outline: none;
+  z-index: 2;
+}
 </style>
