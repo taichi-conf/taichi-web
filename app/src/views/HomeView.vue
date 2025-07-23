@@ -54,7 +54,7 @@
                 <div class="speaker">
                     <img src="@/assets/speakers1.jpg" alt="Professor Duncan P Brumby" class="speaker-image">
                     <div class="speaker-content">
-                        <h1 class="speaker-title">Generative AI: Lessons from Dickens for the Information Age</h1>
+                        <h1 class="speaker-title">Writing Now! Keeping the Human Voice in AI-Assisted Writing</h1>
                         <h2 class="speaker-name">Professor Duncan P Brumby</h2>
                         <p class="speaker-affiliation">UCLIC, University College London</p>
                     </div>
@@ -89,7 +89,7 @@
                 <tr><td class="agenda-time">11:38 - 13:20</td><td>Lunch Break</td></tr>
                 <tr><td class="agenda-time">13:20 - 14:20</td><td><b>Paper Session 2: 人機協作與創意設計 / Human-AI Collaboration and Creative Design</b><br><span class="agenda-speaker">主持人：張永儒 國立陽明交通大學</span></td></tr>
                 <tr><td class="agenda-time">14:20 - 17:00</td><td>
-                  <div class="agenda-item">Poster session 1 and Demo</div>
+                  <div class="agenda-item">Poster session 1</div>
                   <div class="agenda-item"><b>GANZIN X TAICHI 學生競賽</b></div>
                   <div class="agenda-item">14:30 - 16:00 <b>Panel 1: 心理學與人機互動</b></div>
                   <div class="agenda-item">16:00 - 17:00 <b>Panel 2: Ubicamp Panel (Uichin Lee+)</b></div>

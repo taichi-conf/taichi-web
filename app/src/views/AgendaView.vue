@@ -89,7 +89,15 @@ export default {
         {
           time: '10:50 - 11:38',
           title: 'Paper Session 1: 人工智慧、人際關係與社會連結 / AI, Relationships, and Social Connection',
-          detail: `<span class='agenda-speaker'>主持人：許有真 國立清華大學</span>`,
+          detail: `<div class='poster-flexbox'>
+  <div class='poster-item'><span class='poster-id'>10:50 - 11:02</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>From Message Assistants to Relational Mediators: Rethinking AI’s Role in Shaping Early Disclosure in Online Dating</span><span class='poster-author'>Pei-Hua Tsai, Anthony Tang, and Yung-Ju Chang</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>11:02 - 11:14</span><div class='poster-info'><span class='poster-title'>拉近與「擬」的距離：以想像力為調節，探討VTuber直播特性對觀眾社會臨場感與擬社會互動之影響</span><span class='poster-author'>王昭雲</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>11:14 - 11:26</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>人工智慧對調解群體極化效應之研究： 以數位身分證議題為例</span><span class='poster-author'>廖語岑,  陳宜秀</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>11:26 - 11:38</span><div class='poster-info'><span class='poster-title'>Past Tense, Present Love: How Revisiting Nostalgic Instant Message History Supports Intimate Relationships</span><span class='poster-author'>Yi-Tong Chen, Ping-Jung Chiu, and Chien-Wen Yuan</span></div></div>
+</div>`,
         },
         {
           time: '11:38 - 13:20',
@@ -99,11 +107,21 @@ export default {
         {
           time: '13:20 - 14:20',
           title: 'Paper Session 2: 人機協作與創意設計 / Human-AI Collaboration and Creative Design',
-          detail: `主持人：張永儒 國立陽明交通大學`,
+          detail: `<div class='poster-flexbox'>
+  <div class='poster-item'><span class='poster-id'>13:20 - 13:32</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>Seeing Us in Our Stories: Co-designing Storytelling Chatbots with Southeast Asian Immigrant Mothers in Taiwan</span><span class='poster-author'>Yu-Rou Lin, Yang Hong, En-Kai Chang, Kuan-Lun Ho, Ke-Yu Wu, and Ying-Yu Chen</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>13:32 - 13:44</span><div class='poster-info'><span class='poster-title'>Designing with AI: A Comparative Study of Human and AI-Assisted Logo Designs for Brand Communication</span><span class='poster-author'>Arian Ettefaghpour and Yaliang Chuang</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>13:44 - 13:56</span><div class='poster-info'><span class='poster-title'>促進多角色大型語言模型創意發想的人機協作：以人類引導策略為中心的探討</span><span class='poster-author'>曾昱婷, 劉劭禹, 李圯瀞, 畢南怡, 陳炳宇</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>13:56 - 14:08</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>MuseExplorer: An AI-Powered System to Scaffold Problem Framing for Novice Designers</span><span class='poster-author'>Guan Xiu Jin and Neng Hao Yu</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>14:08 - 14:20</span><div class='poster-info'><span class='poster-title'>Challenges to Co-Design with Marginalized Groups in Non-Western Contexts: A Systematic Literature Review</span><span class='poster-author'>Yang Hong, Yu-Rou Lin, En-Kai Chang, and Ying-Yu Chen</span></div></div>
+</div>`,
         },
         {
           time: '14:20 - 17:00',
-          title: 'Poster session 1 and Demo',
+          title: 'Poster session 1',
           detail: `<div class='poster-flexbox'>
   <div class='poster-item'><span class='poster-id'>Poster #1</span><div class='poster-info'><span class='poster-title'>從溝通到創造： 融合多模態互動與人際關係視覺化的科技藝術創作研究</span><span class='poster-author'>Chieh Ju Huang, Hsuan-Fang Yuan, Yun-Hsiang Tsai, Yu-Hua Hsiao, Yu-An Chen, Jia-Zhen Chan and Yi-Ling Shen</span></div></div>
   <div class='poster-sep'></div>
@@ -223,7 +241,17 @@ export default {
         {
           time: '09:00 - 10:00',
           title: 'Paper Session 3: 創新技術與智慧系統 / Emerging Technologies and Intelligent Systems',
-          detail: `<span class='agenda-speaker'>主持人：TBD</span>`,
+          detail: `<div class='poster-flexbox'>
+  <div class='poster-item'><span class='poster-id'>9:00 - 9:12</span><div class='poster-info'><span class='poster-title'>Beyond ‘You Are Stressed’: Exploring Supportive Feedback Modalities in Emotion Tracking Systems</span><span class='poster-author'>Wen-Wei Chen, Tsai-Hsuan Lin, Wan-Che Hung, Yi-Ching Li, Ming-Yu Ku, and Si-Yu Lai</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>9:12 - 9:24</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>FlueBricks: A Modular Toolkit for Interactive Flute-like Instrument Systems</span><span class='poster-author'>Bo-Yu Chen, Chiao-Wei Huang, and Lung-Pan Cheng</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>9:24 - 9:36</span><div class='poster-info'><span class='poster-title'>利用多模態輸入於大型語言模型以理解使用者與機器人溝通之意圖</span><span class='poster-author'>劉彥廷, 王秋玄, 陳姿伶, 李婷穎, 王子華, 林建銘, 陳炳宇, 蔡欣叡</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>9:36 - 9:48</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>探索非牛頓流體結合日常用品之運動應用</span><span class='poster-author'>許柏潁, 洪靖雯, Hamza Shah Khan, 陳炳宇, and Jun Nishida</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>9:48 - 10:00</span><div class='poster-info'><span class='poster-title'>Adapting the Message: How Feedback Delivery Styles Shape Students’ Visualization Construction Literacy</span><span class='poster-author'>Nathania Josephine, Michelle Meng-Ding Liu, Yu-Ling Wang, Zheng-Han Huang, and Ko-Chih Wang</span></div></div>
+</div>`,
         },
         {
           time: '10:00 - 10:20',
@@ -233,7 +261,17 @@ export default {
         {
           time: '10:20 - 11:20',
           title: 'Paper Session 4: 沉浸式體驗與混合實境 / Immersive Experiences and Mixed Reality',
-          detail: `<span class='agenda-speaker'>主持人：鄧善元 國立台灣大學</span>`,
+          detail: `<div class='poster-flexbox'>
+  <div class='poster-item'><span class='poster-id'>10:20 - 10:32</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>虛擬實境正面心理意象訓練對面試焦慮與自我效能之影響</span><span class='poster-author'>昌易臻, 許有真</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>10:32 - 10:44</span><div class='poster-info'><span class='poster-title'>MORTIS: Morphing Object Appearance through Personal Affordance Substitution for Proxy-Based Virtual Experiences</span><span class='poster-author'>Yu-Wei Chang, De-Yuan Lu, Po-Yu Chen, and Lung-Pan Cheng</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>10:44 - 10:56</span><div class='poster-info'><span class='poster-title'>FisheyeVR: Extending the Field of View by Dynamic Zooming in Virtual Reality</span><span class='poster-author'>De-Yuan Lu and Lung-Pan Cheng</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>10:56 - 11:08</span><div class='poster-info'><span class='poster-title'>MRfidget: Creating Fidgets in Mixed Reality</span><span class='poster-author'>Shun-Hsun Liang, Janghyeon Lee, Suyeon Shin, Xing-Dong Yang, Lung-Pan Cheng, and Lawrence H. Kim</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>11:08 - 11:20</span><div class='poster-info'><span class='poster-title'>Gaze-to-Body: Addressing Expressive Gaps of Desktop Users in Hybrid VR Meetings through Gaze-Driven Head-Controlled Avatars</span><span class='poster-author'>Ching Huang, Yu Chuan Chen, Meng Ting Shih, Rong-Hao Liang, and Liwei Chan</span></div></div>
+</div>`,
         },
         {
           time: '11:20 - 13:00',
@@ -542,11 +580,24 @@ export default {
 </style>
 
 <style>
+.award-tag {
+  display: block;
+  width: fit-content;
+  background: linear-gradient(180deg, #fffde4 60%, #ffe082 100%);
+  color: #ad6500;
+  font-weight: 500;
+  font-size: 0.95em;
+  border-radius: 12px;
+  padding: 2px 10px 2px 8px;
+  margin-bottom: 6px;
+  vertical-align: middle;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.38);
+  letter-spacing: 0.5px;
+}
 .poster-flexbox {
   display: flex;
   flex-direction: column;
   gap: 0;
-  margin: 18px 0 0 0;
   background: none;
   border-radius: 0;
   overflow: hidden;
