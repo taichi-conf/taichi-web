@@ -92,7 +92,7 @@
                   <div class="agenda-item">Poster session 1</div>
                   <div class="agenda-item"><b>GANZIN X TAICHI 學生競賽</b></div>
                   <div class="agenda-item">14:30 - 16:00 <b>Panel 1: 心理學與人機互動</b></div>
-                  <div class="agenda-item">16:00 - 17:00 <b>Panel 2: Ubicamp Panel (Uichin Lee+)</b></div>
+                  <div class="agenda-item">16:00 - 17:00 <b>Tutorial: A tutorial on LLM-based HCI Research <br><span class="agenda-speaker">講者：Uichin Lee<br>Professor, KAIST</span></b></div>
                 </td></tr>
                 <tr><td class="agenda-time">18:00 - 21:00</td><td>Banquet at 清大風雲樓4F:湖漾餐廳</td></tr>
               </tbody>
@@ -100,14 +100,13 @@
             <h3 class="agenda-date">DAY 2</h3>
             <table class="agenda-table">
               <tbody>
-                <tr><td class="agenda-time">09:00 - 10:00</td><td><b>Paper Session 3: 創新技術與智慧系統 / <br>Emerging Technologies and Intelligent Systems</b><br><span class="agenda-speaker">主持人：TBD</span></td></tr>
+                <tr><td class="agenda-time">09:00 - 10:00</td><td><b>Paper Session 3: 創新技術與智慧系統 / <br>Emerging Technologies and Intelligent Systems</b><br><span class="agenda-speaker">主持人：陳盈羽 國立陽明交通大學</span></td></tr>
                 <tr><td class="agenda-time">10:00 - 10:20</td><td>Coffee Break</td></tr>
                 <tr><td class="agenda-time">10:20 - 11:20</td><td><b>Paper Session 4: 沉浸式體驗與混合實境 / <br>Immersive Experiences and Mixed Reality</b><br><span class="agenda-speaker">主持人：鄧善元 國立台灣大學</span></td></tr>
                 <tr><td class="agenda-time">11:20 - 13:00</td><td>Lunch Break</td></tr>
                 <tr><td class="agenda-time">13:00 - 15:40</td><td>
                   <div class="agenda-item">Poster session 2 and Demo</div>
                   <div class="agenda-item">13:00 - 14:30 <b>Panel 2: 科技藝術與人機互動</b></div>
-                  <div class="agenda-item">14:30 - 15:30 <b>CSCW workshop</b></div>
                 </td></tr>
                 <tr><td class="agenda-time">15:40 - 16:40</td><td><b>Closing Keynote: Data-Driven Digital Health and Wellbeing</b><br><span class="agenda-speaker">講者：<b>Uichin Lee</b><br>Professor, KAIST<br><br>主持人：游創文 國立清華大學</span></td></tr>
                 <tr><td class="agenda-time">16:40 - 17:00</td><td>Award ceremony and Closing</td></tr>

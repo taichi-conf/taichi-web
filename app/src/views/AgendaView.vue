@@ -89,8 +89,8 @@ export default {
         {
           time: '10:50 - 11:38',
           title: 'Paper Session 1: 人工智慧、人際關係與社會連結 / AI, Relationships, and Social Connection',
-          detail: `<div class='poster-flexbox'>
-  <div class='poster-item'><span class='poster-id'>10:50 - 11:02</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>From Message Assistants to Relational Mediators: Rethinking AI’s Role in Shaping Early Disclosure in Online Dating</span><span class='poster-author'>Pei-Hua Tsai, Anthony Tang, and Yung-Ju Chang</span></div></div>
+          detail: `<span class='agenda-speaker'>主持人：許有真 國立清華大學</span><div class='poster-flexbox'>
+  <div class='poster-item'><span class='poster-id'>10:50 - 11:02</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>From Message Assistants to Relational Mediators: Rethinking AI's Role in Shaping Early Disclosure in Online Dating</span><span class='poster-author'>Pei-Hua Tsai, Anthony Tang, and Yung-Ju Chang</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>11:02 - 11:14</span><div class='poster-info'><span class='poster-title'>拉近與「擬」的距離：以想像力為調節，探討VTuber直播特性對觀眾社會臨場感與擬社會互動之影響</span><span class='poster-author'>王昭雲</span></div></div>
   <div class='poster-sep'></div>
@@ -107,7 +107,7 @@ export default {
         {
           time: '13:20 - 14:20',
           title: 'Paper Session 2: 人機協作與創意設計 / Human-AI Collaboration and Creative Design',
-          detail: `<div class='poster-flexbox'>
+          detail: `<span class='agenda-speaker'>主持人：張永儒 國立陽明交通大學</span><div class='poster-flexbox'>
   <div class='poster-item'><span class='poster-id'>13:20 - 13:32</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>Seeing Us in Our Stories: Co-designing Storytelling Chatbots with Southeast Asian Immigrant Mothers in Taiwan</span><span class='poster-author'>Yu-Rou Lin, Yang Hong, En-Kai Chang, Kuan-Lun Ho, Ke-Yu Wu, and Ying-Yu Chen</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>13:32 - 13:44</span><div class='poster-info'><span class='poster-title'>Designing with AI: A Comparative Study of Human and AI-Assisted Logo Designs for Brand Communication</span><span class='poster-author'>Arian Ettefaghpour and Yaliang Chuang</span></div></div>
@@ -127,63 +127,73 @@ export default {
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #2</span><div class='poster-info'><span class='poster-title'>結合生成式AI與互動設計轉化「美麗羞恥」之情緒體驗設計</span><span class='poster-author'>Chieh Ju Huang, Tzu-Hui Hung, Chih-Yu Chang, Wan-Yu Yang, Hsin-Ying Tsai, Rou-Tong Chen and Chia-Chin Wu</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #3</span><div class='poster-info'><span class='poster-title'>Poster: 誰被它關懷？數位接待員在民宿的關懷與設計實踐</span><span class='poster-author'>伊辰 蕭</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #3</span><div class='poster-info'><span class='poster-title'>誰被它關懷？數位接待員在民宿的關懷與設計實踐</span><span class='poster-author'>蕭伊辰</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #4</span><div class='poster-info'><span class='poster-title'>Towards Understanding How Healthcare Professionals Revise AI Responses to Common Diabetes Questions</span><span class='poster-author'>Cai-Ling Wang and Yuan-Chi Tseng</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #5</span><div class='poster-info'><span class='poster-title'>Poster: 「build cool stuff plz」 ——人工智慧圖像生成技術的使用者建構與規範性政治</span><span class='poster-author'>璟 王</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #5</span><div class='poster-info'><span class='poster-title'>「build cool stuff plz」 ——人工智慧圖像生成技術的使用者建構與規範性政治</span><span class='poster-author'>王璟</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #6</span><div class='poster-info'><span class='poster-title'>不只是圖像被修復：AI修復中的情境知識與隱藏勞動力探討</span><span class='poster-author'>Xian Xing Hung</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #7</span><div class='poster-info'><span class='poster-title'>Poster: From Flat Screens to Immersive Space: Rethinking Multimodal Learning of Complex Systems</span><span class='poster-author'>Shih-Yu Ma, Sandra Bae, Ellen Yi-Luen Do, Tom Yeh and Elizabeth Bradley</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #7</span><div class='poster-info'><span class='poster-title'>From Flat Screens to Immersive Space: Rethinking Multimodal Learning of Complex Systems</span><span class='poster-author'>Shih-Yu Ma, Sandra Bae, Ellen Yi-Luen Do, Tom Yeh and Elizabeth Bradley</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #8</span><div class='poster-info'><span class='poster-title'>革新音樂製作的未來技術－探討使用者對於語音克隆技術所製成AI Cover歌曲的聆聽體驗</span><span class='poster-author'>仲珈 鄭</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #8</span><div class='poster-info'><span class='poster-title'>革新音樂製作的未來技術－探討使用者對於語音克隆技術所製成AI Cover歌曲的聆聽體驗</span><span class='poster-author'>鄭仲珈</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #9</span><div class='poster-info'><span class='poster-title'>結合多代理(Multi-Agent)技術的企業營運分析與決策支援系統設計及應用</span><span class='poster-author'>銘城 蔡 and 元琦 曾</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #9</span><div class='poster-info'><span class='poster-title'>結合多代理(Multi-Agent)技術的企業營運分析與決策支援系統設計及應用</span><span class='poster-author'>蔡銘城, 曾元琦</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #10</span><div class='poster-info'><span class='poster-title'>探討設計如何影響線上會議中的實體感</span><span class='poster-author'>Ziling Cai</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #11</span><div class='poster-info'><span class='poster-title'>Poster:當機器人毒舌起來：風格如何影響使用者的依附關係</span><span class='poster-author'>紫琪 王</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #11</span><div class='poster-info'><span class='poster-title'>當機器人毒舌起來：風格如何影響使用者的依附關係</span><span class='poster-author'>王紫琪</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #12</span><div class='poster-info'><span class='poster-title'>Poster: Mema!d ——結合遊戲化認知檢測與家庭共享機制之高齡健康應用設計</span><span class='poster-author'>妍真 陳 and 家安 侯</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #12</span><div class='poster-info'><span class='poster-title'>Mema!d ——結合遊戲化認知檢測與家庭共享機制之高齡健康應用設計</span><span class='poster-author'>陳妍真, 侯家安</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #13</span><div class='poster-info'><span class='poster-title'>探索人機協作中溝通意圖對信任感和協作效能的影響</span><span class='poster-author'>Yunyu Hu and Yihsiu Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #14</span><div class='poster-info'><span class='poster-title'>探究人們如何透過民間理論理解使用生成式 AI 的詭異經驗-以ChatGPT為例</span><span class='poster-author'>基紘 翁</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #14</span><div class='poster-info'><span class='poster-title'>探究人們如何透過民間理論理解使用生成式 AI 的詭異經驗-以ChatGPT為例</span><span class='poster-author'>翁基紘</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #15</span><div class='poster-info'><span class='poster-title'>Poster:這是禮貌還是討好? 探討使用者對 ChatGPT 奉承語氣的辨識與感知</span><span class='poster-author'>Yi-Shan Cheng</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #15</span><div class='poster-info'><span class='poster-title'>這是禮貌還是討好? 探討使用者對 ChatGPT 奉承語氣的辨識與感知</span><span class='poster-author'>Yi-Shan Cheng</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #16</span><div class='poster-info'><span class='poster-title'>From Fatigue to Affirmation - A Biopsychosocial Approach to Reframing Nighttime Caregiving Through Emotionally Intelligent Interaction Design</span><span class='poster-author'>Yi-Ai Lin, Mi-To Hou, Ting-Shan Pan, Ching-Jung Cheng, Tzu-Ling Chen and Zi-Ling Cai</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #17</span><div class='poster-info'><span class='poster-title'>Poster 數位職場中的非語言符號使用：表意方式、溝通情境、組織內溝通方向與訊息正負性對工作滿意度的影響</span><span class='poster-author'>Tzu-Jung Chang and Chu-Han Chen</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #17</span><div class='poster-info'><span class='poster-title'>數位職場中的非語言符號使用：表意方式、溝通情境、組織內溝通方向與訊息正負性對工作滿意度的影響</span><span class='poster-author'>Tzu-Jung Chang and Chu-Han Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #18</span><div class='poster-info'><span class='poster-title'>新塑時代的可食植物圖鑑：從實證研究到感官推測的設計</span><span class='poster-author'>秀芳 鄭 and 容輝 梁</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #18</span><div class='poster-info'><span class='poster-title'>新塑時代的可食植物圖鑑：從實證研究到感官推測的設計</span><span class='poster-author'>鄭秀芳, 梁容輝</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #19</span><div class='poster-info'><span class='poster-title'>明日吐司：感知化設計在心理消耗時代的反思應用</span><span class='poster-author'>秀芳 鄭 and 容輝 梁</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #19</span><div class='poster-info'><span class='poster-title'>明日吐司：感知化設計在心理消耗時代的反思應用</span><span class='poster-author'>鄭秀芳, 梁容輝</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #20</span><div class='poster-info'><span class='poster-title'>遺忘的場所——數位記憶的侘寂式消逝</span><span class='poster-author'>秀芳 鄭, 怡萱 劉, 芷榆 魏 and 容輝 梁</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #20</span><div class='poster-info'><span class='poster-title'>遺忘的場所——數位記憶的侘寂式消逝</span><span class='poster-author'>鄭秀芳, 劉怡萱, 魏芷榆, 梁容輝</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #21</span><div class='poster-info'><span class='poster-title'>Poster: Analysis of physiological synchrony in Acts of Appreciation</span><span class='poster-author'>Makoto Shinnishi, Mutsumi Suganuma, Mizuki Kato and Yuri Tanaka</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #21</span><div class='poster-info'><span class='poster-title'>Analysis of physiological synchrony in Acts of Appreciation</span><span class='poster-author'>Makoto Shinnishi, Mutsumi Suganuma, Mizuki Kato and Yuri Tanaka</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #22</span><div class='poster-info'><span class='poster-title'>探討非人代理者於互動設計中之情感陪伴效益</span><span class='poster-author'>妏欣 陳, 姿汝 陳 and 婉貞 李</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #22</span><div class='poster-info'><span class='poster-title'>探討非人代理者於互動設計中之情感陪伴效益</span><span class='poster-author'>陳妏欣, 陳姿汝, 李婉貞</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #23</span><div class='poster-info'><span class='poster-title'>Poster: Botender: Toward Human-AI Collaboration in Taste Exploration through Portable Cocktail Sensing System</span><span class='poster-author'>Po-Yu Chen, Tsung-Han Hsiao and Lung-Pan Cheng</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #23</span><div class='poster-info'><span class='poster-title'>Botender: Toward Human-AI Collaboration in Taste Exploration through Portable Cocktail Sensing System</span><span class='poster-author'>Po-Yu Chen, Tsung-Han Hsiao and Lung-Pan Cheng</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #24</span><div class='poster-info'><span class='poster-title'>Poster & Demo: Open Your Mouth, Please?-Tangible VR Simulation for Pediatric Dental Education</span><span class='poster-author'>Chia-Ying Wu, Chia-Hsuan Chiu and Yi-Chun Ko</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #24</span><div class='poster-info'><span class='poster-title'>Open Your Mouth, Please?-Tangible VR Simulation for Pediatric Dental Education</span><span class='poster-author'>Chia-Ying Wu, Chia-Hsuan Chiu and Yi-Chun Ko</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #25</span><div class='poster-info'><span class='poster-title'>非語言符碼在情緒互動設計中的應用—以Ficho裝置為例</span><span class='poster-author'>亞涵 林, 涓 夏, 姿汝 陳 and 婉貞 李</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #25</span><div class='poster-info'><span class='poster-title'>非語言符碼在情緒互動設計中的應用—以Ficho裝置為例</span><span class='poster-author'>林亞涵, 夏涓, 陳姿汝, 李婉貞</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #26</span><div class='poster-info'><span class='poster-title'>Toward Multi-Device Interaction for On-Site Troubleshooting: Integrating AR Glasses, Tablet, and Voice Assistant</span><span class='poster-author'>Chin-Lang Peng</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #27</span><div class='poster-info'><span class='poster-title'>探討初學者在生成式AI輔助下故事板敘述表現研究</span><span class='poster-author'>恒 連, 翔衣 游, 姿汝 陳 and 婉貞 李</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #27</span><div class='poster-info'><span class='poster-title'>探討初學者在生成式AI輔助下故事板敘述表現研究</span><span class='poster-author'>連恒, 游翔衣, 陳姿汝, 李婉貞</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #28</span><div class='poster-info'><span class='poster-title'>生成式AI工具協同設計流程與設計思考4D模型的框架：在互動設計課程中的行動研究</span><span class='poster-author'>安岑 許, 昱君 陳, 姿汝 陳 and 婉貞 李</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #28</span><div class='poster-info'><span class='poster-title'>生成式AI工具協同設計流程與設計思考4D模型的框架：在互動設計課程中的行動研究</span><span class='poster-author'>許安岑, 陳昱君, 陳姿汝, 李婉貞</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #29</span><div class='poster-info'><span class='poster-title'>Poster: NTHUnlock——國際學生在清大校園的適應系統</span><span class='poster-author'>宜德 林, 秉諭 李, 卉然 洪, 庭儀 吳 and 有真 許</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #29</span><div class='poster-info'><span class='poster-title'>NTHUnlock——國際學生在清大校園的適應系統</span><span class='poster-author'>林宜德, 李秉諭, 洪卉然, 吳庭儀, 許有真</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #30</span><div class='poster-info'><span class='poster-title'>Poster: Evidence of What, from Where, and by Which Calculations? The Cultural Labor of Automated Policing</span><span class='poster-author'>Wei Jie Hsiao and Ke Yu Tsao</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #30</span><div class='poster-info'><span class='poster-title'>Evidence of What, from Where, and by Which Calculations? The Cultural Labor of Automated Policing</span><span class='poster-author'>Wei Jie Hsiao and Ke Yu Tsao</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #31</span><div class='poster-info'><span class='poster-title'>設備背後的生活世界：以設計研究方法反思遊戲互動技術的社會影響</span><span class='poster-author'>智芳 陳 and 恩 謝</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #31</span><div class='poster-info'><span class='poster-title'>設備背後的生活世界：以設計研究方法反思遊戲互動技術的社會影響</span><span class='poster-author'>陳智芳, 謝恩</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Poster #32</span><div class='poster-info'><span class='poster-title'>360 虛擬環景網頁可用性設計 : 以資訊搜尋過程四階段模型探索影響互動滿意度的可用性關鍵指標與設計建議</span><span class='poster-author'>Tzu-Jung Chang, Chen-Shi Liu, Zheng-Hsin Yang, and Jiunde Lee</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Poster #33</span><div class='poster-info'><span class='poster-title'>讀書帳的說服力：探討筆記字體、內容與貼文讚數如何影響購買意願</span><span class='poster-author'>Chu-Han Chen and Chih-Yen Yeh</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Poster #34</span><div class='poster-info'><span class='poster-title'>探討校園聊天機器人之角色設定研究</span><span class='poster-author'>Zhao Yun Wang, Li Yu Wu and Jiun De Lee</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Poster #35</span><div class='poster-info'><span class='poster-title'>Puzzle Me This: Generating Playful Challenges by Repurposing Everyday Objects</span><span class='poster-author'>Alvaro Lopez, Yee Kit Chan and Lung-Pan Cheng</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Poster #41</span><div class='poster-info'><span class='poster-title'>當 AI 傾聽你，從感覺結構觀點探討大型語言模型中的 人機情感互動與自我揭露</span><span class='poster-author'>劉沐恩, 游絲涵</span></div></div>
 </div>`,
         },
         {
@@ -241,8 +251,8 @@ export default {
         {
           time: '09:00 - 10:00',
           title: 'Paper Session 3: 創新技術與智慧系統 / Emerging Technologies and Intelligent Systems',
-          detail: `<div class='poster-flexbox'>
-  <div class='poster-item'><span class='poster-id'>9:00 - 9:12</span><div class='poster-info'><span class='poster-title'>Beyond ‘You Are Stressed’: Exploring Supportive Feedback Modalities in Emotion Tracking Systems</span><span class='poster-author'>Wen-Wei Chen, Tsai-Hsuan Lin, Wan-Che Hung, Yi-Ching Li, Ming-Yu Ku, and Si-Yu Lai</span></div></div>
+          detail: `<span class='agenda-speaker'>主持人：陳盈羽 國立陽明交通大學</span><div class='poster-flexbox'>
+  <div class='poster-item'><span class='poster-id'>9:00 - 9:12</span><div class='poster-info'><span class='poster-title'>Beyond 'You Are Stressed': Exploring Supportive Feedback Modalities in Emotion Tracking Systems</span><span class='poster-author'>Wen-Wei Chen, Tsai-Hsuan Lin, Wan-Che Hung, Yi-Ching Li, Ming-Yu Ku, and Si-Yu Lai</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>9:12 - 9:24</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>FlueBricks: A Modular Toolkit for Interactive Flute-like Instrument Systems</span><span class='poster-author'>Bo-Yu Chen, Chiao-Wei Huang, and Lung-Pan Cheng</span></div></div>
   <div class='poster-sep'></div>
@@ -250,7 +260,7 @@ export default {
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>9:36 - 9:48</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>探索非牛頓流體結合日常用品之運動應用</span><span class='poster-author'>許柏潁, 洪靖雯, Hamza Shah Khan, 陳炳宇, and Jun Nishida</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>9:48 - 10:00</span><div class='poster-info'><span class='poster-title'>Adapting the Message: How Feedback Delivery Styles Shape Students’ Visualization Construction Literacy</span><span class='poster-author'>Nathania Josephine, Michelle Meng-Ding Liu, Yu-Ling Wang, Zheng-Han Huang, and Ko-Chih Wang</span></div></div>
+  <div class='poster-item'><span class='poster-id'>9:48 - 10:00</span><div class='poster-info'><span class='poster-title'>Adapting the Message: How Feedback Delivery Styles Shape Students' Visualization Construction Literacy</span><span class='poster-author'>Nathania Josephine, Michelle Meng-Ding Liu, Yu-Ling Wang, Zheng-Han Huang, and Ko-Chih Wang</span></div></div>
 </div>`,
         },
         {
@@ -261,7 +271,7 @@ export default {
         {
           time: '10:20 - 11:20',
           title: 'Paper Session 4: 沉浸式體驗與混合實境 / Immersive Experiences and Mixed Reality',
-          detail: `<div class='poster-flexbox'>
+          detail: `<span class='agenda-speaker'>主持人：鄧善元 國立台灣大學</span><div class='poster-flexbox'>
   <div class='poster-item'><span class='poster-id'>10:20 - 10:32</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>虛擬實境正面心理意象訓練對面試焦慮與自我效能之影響</span><span class='poster-author'>昌易臻, 許有真</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>10:32 - 10:44</span><div class='poster-info'><span class='poster-title'>MORTIS: Morphing Object Appearance through Personal Affordance Substitution for Proxy-Based Virtual Experiences</span><span class='poster-author'>Yu-Wei Chang, De-Yuan Lu, Po-Yu Chen, and Lung-Pan Cheng</span></div></div>
@@ -282,107 +292,116 @@ export default {
           time: '13:00 - 15:40',
           title: 'Poster session 2 and Demo',
           detail: `<div class='poster-flexbox'>
+  <div class='poster-item'><span class='poster-id'>Poster #36</span><div class='poster-info'><span class='poster-title'>生成式AI於國小教師備課於數位教學政策實踐中之設計探討: ChatGPT在國小數學科之備課與教學成效之反思</span><span class='poster-author'>Kang Hsin Hsu and Wei-Chi Chien</span></div></div>
+  <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #37</span><div class='poster-info'><span class='poster-title'>基於順從性的AI生成式圖像性別偏見研究： 人機互動中提示詞的方法</span><span class='poster-author'>Tzu Yu Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #38</span><div class='poster-info'><span class='poster-title'>不只輸入年齡與個人資訊：人們如何理解並使用ChatGPT作占卜</span><span class='poster-author'>志杰 冉</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #38</span><div class='poster-info'><span class='poster-title'>不只輸入年齡與個人資訊：人們如何理解並使用ChatGPT作占卜</span><span class='poster-author'>冉志杰</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #39</span><div class='poster-info'><span class='poster-title'>以侘寂美學轉譯的 AI 數位儀式設計實踐</span><span class='poster-author'>Hsin-Ting Chung, Wei-Chen Chen, Si-Ying Chen and Rung-Huei Liang</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #40</span><div class='poster-info'><span class='poster-title'>Poster: 探索企業電子郵件助理的人機協作流程設計 —以AI分類與回覆原型為例</span><span class='poster-author'>義登 林 and 元琦 曾</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #40</span><div class='poster-info'><span class='poster-title'>探索企業電子郵件助理的人機協作流程設計 —以AI分類與回覆原型為例</span><span class='poster-author'>林義登, 曾元琦</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #41</span><div class='poster-info'><span class='poster-title'>當 AI 傾聽你，從感覺結構觀點探討大型語言模型中的 人機情感互動與自我揭露</span><span class='poster-author'>沐恩 劉 and 絲涵 游</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #42</span><div class='poster-info'><span class='poster-title'>Tending to Things: An Animistic Service Design Framework for Non-Human Stakeholders</span><span class='poster-author'>Chang-Gu Lin</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #42</span><div class='poster-info'><span class='poster-title'>Poster: Tending to Things: An Animistic Service Design Framework for Non-Human Stakeholders</span><span class='poster-author'>Chang-Gu Lin</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #43</span><div class='poster-info'><span class='poster-title'>Social Talk and Asymmetric Knowledge: How Small Talk and Information Access Shape Human Perceptions in Human-Robot Collaboration</span><span class='poster-author'>Yu-Hsuan Lin, Yung-Han Fan and Yoyo Tsung-Yu Hou</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #43</span><div class='poster-info'><span class='poster-title'>Poster: Social Talk and Asymmetric Knowledge: How Small Talk and Information Access Shape Human Perceptions in Human-Robot Collaboration</span><span class='poster-author'>Yu-Hsuan Lin, Yung-Han Fan and Yoyo Tsung-Yu Hou</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #44</span><div class='poster-info'><span class='poster-title'>結合肢體與音訊特徵之個人化鋼琴演奏視覺系統設計</span><span class='poster-author'>蔡岱臻, 黃稚筌, 許程胤, 張舜涵, 李炘穎, 胡敏君, 潘則佑</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #44</span><div class='poster-info'><span class='poster-title'>結合肢體與音訊特徵之個人化鋼琴演奏視覺系統設計</span><span class='poster-author'>岱臻 蔡, 稚筌 黃, 程胤 許, 舜涵 張, 炘穎 李, 敏君 胡 and 則佑 潘</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #45</span><div class='poster-info'><span class='poster-title'>Papillon：結合視覺辨識的視障女性生理期應用設計</span><span class='poster-author'>郭瑞晴, 張芷榕, 蕭孟菱, 張雅婷, 郭哲豪</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #45</span><div class='poster-info'><span class='poster-title'>Papillon：結合視覺辨識的視障女性生理期應用設計</span><span class='poster-author'>瑞晴 郭, 芷榕 張, 孟菱 蕭, 雅婷 張 and 哲豪 郭</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #46</span><div class='poster-info'><span class='poster-title'>人智協作中人工智慧代理人的回饋取向與形式對設計構思之影響</span><span class='poster-author'>Hsuan-Ming Huang and Yihsiu Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #46</span><div class='poster-info'><span class='poster-title'>Poster: 人智協作中人工智慧代理人的回饋取向與形式對設計構思之影響</span><span class='poster-author'>Hsuan-Ming Huang and Yihsiu Chen</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #47</span><div class='poster-info'><span class='poster-title'>Context Avatar: Dynamic Event Representation for Improved Avatar Comprehension and Privacy-Aware Content-Sharing</span><span class='poster-author'>Yi-Lien Chang, Sheng-Cian Lee, Ting-Han Wu and Liwei Chan</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #47</span><div class='poster-info'><span class='poster-title'>Poster: Context Avatar: Dynamic Event Representation for Improved Avatar Comprehension and Privacy-Aware Content-Sharing</span><span class='poster-author'>Yi-Lien Chang, Sheng-Cian Lee, Ting-Han Wu and Liwei Chan</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #48</span><div class='poster-info'><span class='poster-title'>應用說服式理論於情緒紀錄功能的數位日記工具設計</span><span class='poster-author'>Ting-Chen Lu, Chia-Chi Lin, Chiau-Le Lio, Jian-Jhan Sun, Tu-Tong Li, Chee-Yee Kuah, Hsiu-Ping Yueh and Hung-Chun Chang</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #48</span><div class='poster-info'><span class='poster-title'>Poster: 應用說服式理論於情緒紀錄功能的數位日記工具設計</span><span class='poster-author'>Ting-Chen Lu, Chia-Chi Lin, Chiau-Le Lio, Jian-Jhan Sun, Tu-Tong Li, Chee-Yee Kuah, Hsiu-Ping Yueh and Hung-Chun Chang</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #49</span><div class='poster-info'><span class='poster-title'>AI代理人作為參與者對團體決策的影響</span><span class='poster-author'>Ching-Chun Hsu and Yihsiu Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #49</span><div class='poster-info'><span class='poster-title'>Poster: AI代理人作為參與者對團體決策的影響</span><span class='poster-author'>Ching-Chun Hsu and Yihsiu Chen</span></div></div>
-  <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #50</span><div class='poster-info'><span class='poster-title'>Poster: 以AI 生成閾限圖像探索個人記憶場域的詩意地圖 Poster: A Poetic Map of Personal Memory Through AI-Generated Liminal Imagery</span><span class='poster-author'>Lin Hong-Ru and Liang Rung-Huei</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #50</span><div class='poster-info'><span class='poster-title'>以AI 生成閾限圖像探索個人記憶場域的詩意地圖 A Poetic Map of Personal Memory Through AI-Generated Liminal Imagery</span><span class='poster-author'>Lin Hong-Ru and Liang Rung-Huei</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #51</span><div class='poster-info'><span class='poster-title'>移動環境下混合實境互動模式對自動駕駛車輛乘客之影響：基於手勢、眼動及射線指向技術之實驗分析</span><span class='poster-author'>Chih-Heng Tam and Neng-Hao Yu</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #52</span><div class='poster-info'><span class='poster-title'>Poster: 以 MarTech 打造高互動品牌行銷與顧客旅程設計</span><span class='poster-author'>Tzu-Yi Wei and Hui-Ping Liao</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #52</span><div class='poster-info'><span class='poster-title'>以 MarTech 打造高互動品牌行銷與顧客旅程設計</span><span class='poster-author'>Tzu-Yi Wei and Hui-Ping Liao</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #53</span><div class='poster-info'><span class='poster-title'>Poster: Developing Non-verbal Behaviors for an MR Tour Avatar</span><span class='poster-author'>An Hsu and Liwei Chan</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #53</span><div class='poster-info'><span class='poster-title'>Developing Non-verbal Behaviors for an MR Tour Avatar</span><span class='poster-author'>An Hsu and Liwei Chan</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #54</span><div class='poster-info'><span class='poster-title'>Poster: 互動式餅乾設計App與永續 3D 食品列印流程</span><span class='poster-author'>Tzu Jung Wang and Tsuei Ju Hsieh</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #54</span><div class='poster-info'><span class='poster-title'>互動式餅乾設計App與永續 3D 食品列印流程</span><span class='poster-author'>Tzu Jung Wang and Tsuei Ju Hsieh</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #55</span><div class='poster-info'><span class='poster-title'>Poster: 結合生成式AI之數位筆記工具對使用者認知負荷之影響—認知卸載的視角</span><span class='poster-author'>林 耕締, 俞 齊山 and 范 丙林</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #55</span><div class='poster-info'><span class='poster-title'>結合生成式AI之數位筆記工具對使用者認知負荷之影響—認知卸載的視角</span><span class='poster-author'>林耕締, 俞齊山, 范丙林</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #56</span><div class='poster-info'><span class='poster-title'>Poster: Action Recognition and Visualization System based on Deep Learning for Analyzing Habitual Basketball Movements</span><span class='poster-author'>Min-Syuan Chen, Sin-En Lee, Cheng-Chih Tsai, Tzu-Cheng Lo, Min-Chun Hu, Tse-Yu Pan and Yi-Fen Chen</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #56</span><div class='poster-info'><span class='poster-title'>Action Recognition and Visualization System based on Deep Learning for Analyzing Habitual Basketball Movements</span><span class='poster-author'>Min-Syuan Chen, Sin-En Lee, Cheng-Chih Tsai, Tzu-Cheng Lo, Min-Chun Hu, Tse-Yu Pan and Yi-Fen Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #57</span><div class='poster-info'><span class='poster-title'>Poster: Integrating Generative AI and Extended Reality with Physical Prototyping and User Testing</span><span class='poster-author'>Ching Chou and Neng-Hao Yu</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #57</span><div class='poster-info'><span class='poster-title'>Integrating Generative AI and Extended Reality with Physical Prototyping and User Testing</span><span class='poster-author'>Ching Chou and Neng-Hao Yu</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #58</span><div class='poster-info'><span class='poster-title'>Poster: AI協作產生行為建議對個體生涯自我效能的影響</span><span class='poster-author'>Wen-Ling Chi and Yihsiu Chen</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #58</span><div class='poster-info'><span class='poster-title'>AI協作產生行為建議對個體生涯自我效能的影響</span><span class='poster-author'>Wen-Ling Chi and Yihsiu Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #59</span><div class='poster-info'><span class='poster-title'>Poster: MusicMorph: Transforming Music into Immersive Visuals with Motion and Scene Creation</span><span class='poster-author'>Chi Tsao, Tai-Chen Tsai, Tzu-Cheng Lo, Yu-Hsuan Cheng and Tse-Yu Pan</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #59</span><div class='poster-info'><span class='poster-title'>MusicMorph: Transforming Music into Immersive Visuals with Motion and Scene Creation</span><span class='poster-author'>Chi Tsao, Tai-Chen Tsai, Tzu-Cheng Lo, Yu-Hsuan Cheng and Tse-Yu Pan</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #60</span><div class='poster-info'><span class='poster-title'>Poster: Exploring Interactive 3D Scene Creation in Virtual Reality with Generated Panoramas</span><span class='poster-author'>Cheng-Chih Tsai and Tse-Yu Pan</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #60</span><div class='poster-info'><span class='poster-title'>Exploring Interactive 3D Scene Creation in Virtual Reality with Generated Panoramas</span><span class='poster-author'>Cheng-Chih Tsai and Tse-Yu Pan</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #61</span><div class='poster-info'><span class='poster-title'>Is It More Acceptable When AI Speaks Bluntly? Understanding the Impact of Direct Feedback on User Perception</span><span class='poster-author'>Ming-Jie Yu, Wei-Rong Chen and Tsung-Yu Hou</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #62</span><div class='poster-info'><span class='poster-title'>透過改造互動式家具探索延展實境中虛擬寵物的具身陪伴體驗</span><span class='poster-author'>Jung Shen, Meng-Wei Lu, Chieh-Hsin Liu, Yen-Hua Lai and Ping-Hsuan Han</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #63</span><div class='poster-info'><span class='poster-title'>Poster: A Design Study on How Generative AI Tools Support Storybook Creation Workshops for Older Adults</span><span class='poster-author'>Yu-Hsuan Lin and Yoyo Tsung-Yu Hou</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #63</span><div class='poster-info'><span class='poster-title'>A Design Study on How Generative AI Tools Support Storybook Creation Workshops for Older Adults</span><span class='poster-author'>Yu-Hsuan Lin and Yoyo Tsung-Yu Hou</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #64</span><div class='poster-info'><span class='poster-title'>被設計的同理心：企業如何建構 Empathic AI 與情緒福祉的未來想像</span><span class='poster-author'>Yi-Ting Hsieh</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #65</span><div class='poster-info'><span class='poster-title'>Poster: 透過喝水習慣建立創造屬於自己的水滴寶寶-水水出沒</span><span class='poster-author'>Mengjou 孟渘 Chen 陳, Tingli 廷曆 Jian 簡, Leiching 蕾靜 Chu 朱, Yayun 雅昀 Yu 游 and Yu-Chen 有真 Hsu 許</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #65</span><div class='poster-info'><span class='poster-title'>透過喝水習慣建立創造屬於自己的水滴寶寶-水水出沒</span><span class='poster-author'>陳孟渘, 簡廷曆, 朱蕾靜, 游雅昀, 許有真</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #66</span><div class='poster-info'><span class='poster-title'>Poster & Demo: 若祂在場：賽博神聖空間建構的增強體驗設計</span><span class='poster-author'>國伶 廖 and 宜秀 陳</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #66</span><div class='poster-info'><span class='poster-title'>若祂在場：賽博神聖空間建構的增強體驗設計</span><span class='poster-author'>廖國伶, 陳宜秀</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #67</span><div class='poster-info'><span class='poster-title'>Poster: 設計聊天機器人促進大學生校園內容參與與價值共創</span><span class='poster-author'>子晴 林, 明倢 鐘, 宇柔 林, 唯一 陳 and 峻誠 許</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #67</span><div class='poster-info'><span class='poster-title'>設計聊天機器人促進大學生校園內容參與與價值共創</span><span class='poster-author'>林子晴, 鐘明倢, 林宇柔, 陳唯一, 許峻誠</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #1</span><div class='poster-info'><span class='poster-title'>Demo: TitanFeel, A Body-Worn Haptic VR System for Enhancing Attack on Titan Gameplay</span><span class='poster-author'>Tsai-Ni Chen, Yun Huang, Wen-Tzu Huang and Wei-Jhen Wu</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #68</span><div class='poster-info'><span class='poster-title'>AI 圖形生成中的人機協作策略觀察</span><span class='poster-author'>鄭秀芳, 鄭司維</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #2</span><div class='poster-info'><span class='poster-title'>Demo: TAG: Enhancing the horror game experience with a Cooling system and a 3DoF device</span><span class='poster-author'>Hsiang-Chih Chiu, Yi-Cheng Huang and Yun-Chen Cheng</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #69</span><div class='poster-info'><span class='poster-title'>Illusory Eyescape — Visualizing Consciousness through Generative Art and Gaze Interaction</span><span class='poster-author'>Sin-Fei Lee and Ming-Te Chi</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #3</span><div class='poster-info'><span class='poster-title'>Demo: AI驅動互動敘事遊戲〈SLAVR〉 - 以AI輔助玩家對話功能影響遊戲 AI NPC 好感度的機制設計探索</span><span class='poster-author'>Ling-Qiao Huang and Jiunde Lee</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #70</span><div class='poster-info'><span class='poster-title'>虛擬訓練對兒童粗大動作運動協調的成效</span><span class='poster-author'>吳柏徴, 何基辰, 張晏齊, 劉佳柔, 黃怡錚</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #4</span><div class='poster-info'><span class='poster-title'>Demo: MRDAW: Towards Collaborative Digital Audio Workstations in Mixed Reality</span><span class='poster-author'>Shih-Yu Ma, Torin Hopkins, Ming-Yuan Pai, Suibi Che-Chuan Weng, Ellen Yi-Luen Do and Luca Turchet</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #71</span><div class='poster-info'><span class='poster-title'>Skill Map: A Graph-Based Visual Interface for Scaffolding Skill Acquisition and Exploration</span><span class='poster-author'>Yu-Chen Chuang, Xin-Ti Wu, Mi-To Hou, and Sheng-Wen Chen</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #5</span><div class='poster-info'><span class='poster-title'>Poster & Demo: Open Your Mouth, Please?-Tangible VR Simulation for Pediatric Dental Education</span><span class='poster-author'>Chia-Ying Wu, Chia-Hsuan Chiu and Yi-Chun Ko</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #72</span><div class='poster-info'><span class='poster-title'>驅動銀髮族的內在動機：從自我決定理論建構AI互動人物誌</span><span class='poster-author'>Wan Lin Sun, Hung Yu Chen, Li Yu Wu, Ya Ting Chang and Jiunde Lee</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #6</span><div class='poster-info'><span class='poster-title'>Demo: 生成式AI引導失智症長者藝術創作可行性研究</span><span class='poster-author'>慧蓮 黃 and 一平 陳</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Demo #1</span><div class='poster-info'><span class='poster-title'>TitanFeel, A Body-Worn Haptic VR System for Enhancing Attack on Titan Gameplay</span><span class='poster-author'>Tsai-Ni Chen, Yun Huang, Wen-Tzu Huang and Wei-Jhen Wu</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #7</span><div class='poster-info'><span class='poster-title'>Demo：清醒夢境-虛實交界的情境敘事</span><span class='poster-author'>Yu-Tung Wu, Chia-Yu Wang and Shih-Wei Sun</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Demo #2</span><div class='poster-info'><span class='poster-title'>TAG: Enhancing the horror game experience with a Cooling system and a 3DoF device</span><span class='poster-author'>Hsiang-Chih Chiu, Yi-Cheng Huang and Yun-Chen Cheng</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Demo #3</span><div class='poster-info'><span class='poster-title'>AI驅動互動敘事遊戲〈SLAVR〉 - 以AI輔助玩家對話功能影響遊戲 AI NPC 好感度的機制設計探索</span><span class='poster-author'>Ling-Qiao Huang and Jiunde Lee</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Demo #4</span><div class='poster-info'><span class='poster-title'>MRDAW: Towards Collaborative Digital Audio Workstations in Mixed Reality</span><span class='poster-author'>Shih-Yu Ma, Torin Hopkins, Ming-Yuan Pai, Suibi Che-Chuan Weng, Ellen Yi-Luen Do and Luca Turchet</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Demo #5</span><div class='poster-info'><span class='poster-title'>Open Your Mouth, Please?-Tangible VR Simulation for Pediatric Dental Education</span><span class='poster-author'>Chia-Ying Wu, Chia-Hsuan Chiu and Yi-Chun Ko</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Demo #6</span><div class='poster-info'><span class='poster-title'>生成式AI引導失智症長者藝術創作可行性研究</span><span class='poster-author'>黃慧蓮, 陳一平</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>Demo #7</span><div class='poster-info'><span class='poster-title'>清醒夢境-虛實交界的情境敘事</span><span class='poster-author'>Yu-Tung Wu, Chia-Yu Wang and Shih-Wei Sun</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #8</span><div class='poster-info'><span class='poster-title'>A Versatile and Expandable VR Content Authoring Tool : VRsatilis</span><span class='poster-author'>Norimichi Idehara, Guilhem Mas and Kenji Fujioka</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #9</span><div class='poster-info'><span class='poster-title'>Demo: 促進酒精使用障礙復原的協作式聊天機器人行動支援系統</span><span class='poster-author'>Yu-Ching Lin, Yan-Ming Chen, Chih-Ching Chuang, Pin-Yu Liu, Yun-Jen Wu, Hsiang-Yen Fan, Chien Wen Yuan, Nanyi Bi, Shu-Hao Hsu, Hu-Ming Chang, Ming-Chyi Huang and Chuang-Wen You</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Demo #9</span><div class='poster-info'><span class='poster-title'>促進酒精使用障礙復原的協作式聊天機器人行動支援系統</span><span class='poster-author'>Yu-Ching Lin, Yan-Ming Chen, Chih-Ching Chuang, Pin-Yu Liu, Yun-Jen Wu, Hsiang-Yen Fan, Chien Wen Yuan, Nanyi Bi, Shu-Hao Hsu, Hu-Ming Chang, Ming-Chyi Huang and Chuang-Wen You</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #10</span><div class='poster-info'><span class='poster-title'>Demo: DinoForce-An Immersive Haptic Experience System for Dinosaur Apocalypse Simulation</span><span class='poster-author'>Yu-Chieh Chao, Tzu-Chia Fu and Yu-Ching Wu</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Demo #10</span><div class='poster-info'><span class='poster-title'>DinoForce-An Immersive Haptic Experience System for Dinosaur Apocalypse Simulation</span><span class='poster-author'>Yu-Chieh Chao, Tzu-Chia Fu and Yu-Ching Wu</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #11</span><div class='poster-info'><span class='poster-title'>Demo: 探索非牛頓流體結合日常用品之運動應用</span><span class='poster-author'>柏潁 許, 靖雯 洪, Hamza Shah Khan, 炳宇 陳 and Jun Nishida</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Demo #11</span><div class='poster-info'><span class='poster-title'>探索非牛頓流體結合日常用品之運動應用</span><span class='poster-author'>許柏潁, 洪靖雯, Hamza Shah Khan, 陳炳宇, and Jun Nishida</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #12</span><div class='poster-info'><span class='poster-title'>Demo: A VR Rhythm Dance Game Driven by Wotagei</span><span class='poster-author'>Kalin Lai, Guan-Wen Wang, Yi Ting, Heng-Hao Wang, Hsuan-Tung Lai, Zhe-Cheng Chang, Po-Hung Chiang and Wen-Kai Tai</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Demo #12</span><div class='poster-info'><span class='poster-title'>A VR Rhythm Dance Game Driven by Wotagei</span><span class='poster-author'>Kalin Lai, Guan-Wen Wang, Yi Ting, Heng-Hao Wang, Hsuan-Tung Lai, Zhe-Cheng Chang, Po-Hung Chiang and Wen-Kai Tai</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #13</span><div class='poster-info'><span class='poster-title'>Foot Joystick: a Foot-based Input Device Designed for Joystick-like Input Interaction</span><span class='poster-author'>Cheng-Kai Tu and Liwei Chan</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #14</span><div class='poster-info'><span class='poster-title'>Eye-Foot Movement of Objects in Extended Reality</span><span class='poster-author'>Chih-Jou Li, Hsuan-Hsuan Lee and Liwei Chan</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #15</span><div class='poster-info'><span class='poster-title'>Poster & Demo: 若祂在場：賽博神聖空間建構的增強體驗設計</span><span class='poster-author'>國伶 廖 and 宜秀 陳</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Demo #15</span><div class='poster-info'><span class='poster-title'>若祂在場：賽博神聖空間建構的增強體驗設計</span><span class='poster-author'>廖國伶, 陳宜秀</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>OpenHCI #1</span><div class='poster-info'><span class='poster-title'>DearPlanet</span><span class='poster-author'>張上元、鄭羽芹、林履杰、許安、鄭婷云、魏秭翊、傅鈺婷、李佳蓉</span></div></div>
+  <div class='poster-sep'></div>
+  <div class='poster-item'><span class='poster-id'>OpenHCI #2</span><div class='poster-info'><span class='poster-title'>Oblivilight 憶光：探索情感支持生成式人工智慧的遺忘機制</span><span class='poster-author'>湯宇、張韻柔、邱馨論、李思穎、陶俊儒、周杰穎、巫芊瑩</span></div></div>
 </div>`,
         },
         {
           time: '13:00 - 14:30',
           title: 'Panel 2: 科技藝術與人機互動',
-          detail: '',
-        },
-        {
-          time: '14:30 - 15:30',
-          title: 'CSCW workshop',
           detail: '',
         },
         {

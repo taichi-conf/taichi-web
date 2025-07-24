@@ -122,7 +122,19 @@
           </div>
         </div>
       </div>
-      
+
+      <!-- Best Paper Award Committee -->
+      <div class="chair-section">
+        <h2 class="section-title">最佳論文獎委員 BEST PAPER AWARD COMMITTEE</h2>
+        <div class="card">
+          <div class="card-content">
+            <div v-for="(member, index) in bestPaperAwardCommittee" :key="`best-paper-${index}`">
+              {{ member.name }} / {{ member.affiliation }}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Web Chairs -->
       <div class="chair-section">
         <h2 class="section-title">網路主席 WEB CHAIRS</h2>
@@ -205,6 +217,11 @@ export default {
       studentVolunteerChairs: [
         { name: '施孟廷', affiliation: '國立陽明交通大學資訊工程系' },
         { name: '黃瑩瑩', affiliation: '國立清華大學藝術與設計系' }
+      ],
+      bestPaperAwardCommittee: [
+        { name: 'Kwan-Liu Ma', affiliation: 'Distinguished Professor, Computer Science, University of California at Davis' },
+        { name: 'Lin-Lin Chen', affiliation: 'Dean of the Industrial Design Department, Eindhoven University of Technology' },
+        { name: 'Ellen Yi-Luen Do', affiliation: 'Professor, ATLAS Institute & Computer Science, University of Colorado Boulder' }
       ]
     }
   }
