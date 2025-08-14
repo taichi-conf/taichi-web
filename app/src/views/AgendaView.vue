@@ -89,7 +89,7 @@ export default {
         {
           time: '10:50 - 11:38',
           title: 'Paper Session 1: 人工智慧、人際關係與社會連結 / AI, Relationships, and Social Connection',
-          detail: `<span class='agenda-speaker'>主持人：許有真 國立清華大學</span><div class='poster-flexbox'>
+          detail: `<span class='agenda-speaker'>主持人：程芙茵 國立中正大學</span><div class='poster-flexbox'>
   <div class='poster-item'><span class='poster-id'>10:50 - 11:02</span><div class='poster-info'><span class='poster-title'><span class='award-tag'>🎖️ Honorable Mentioned Award</span>From Message Assistants to Relational Mediators: Rethinking AI's Role in Shaping Early Disclosure in Online Dating</span><span class='poster-author'>Pei-Hua Tsai, Anthony Tang, and Yung-Ju Chang</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>11:02 - 11:14</span><div class='poster-info'><span class='poster-title'>拉近與「擬」的距離：以想像力為調節，探討VTuber直播特性對觀眾社會臨場感與擬社會互動之影響</span><span class='poster-author'>王昭雲</span></div></div>
@@ -234,7 +234,7 @@ export default {
         {
           time: '14:30 - 16:00',
           title: 'Panel 1: 心理學與人機互動',
-          detail: '',
+          detail: `<span class='agenda-speaker'>Chair<br>羅仕宇：國立陽明交通大學<br>許富淞：國立陽明交通大學<br><br>Panelist<br>楊政達：國立成功大學<br>張永儒：國立陽明交通大學<br>侯宗佑：國立政治大學<br>曾元琦：國立清華大學</span>`,
         },
         {
           time: '16:00 - 17:00',
@@ -306,7 +306,7 @@ export default {
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #43</span><div class='poster-info'><span class='poster-title'>Social Talk and Asymmetric Knowledge: How Small Talk and Information Access Shape Human Perceptions in Human-Robot Collaboration</span><span class='poster-author'>Yu-Hsuan Lin, Yung-Han Fan and Yoyo Tsung-Yu Hou</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Poster #44</span><div class='poster-info'><span class='poster-title'>結合肢體與音訊特徵之個人化鋼琴演奏視覺系統設計</span><span class='poster-author'>蔡岱臻, 黃稚筌, 許程胤, 張舜涵, 李炘穎, 胡敏君, 潘則佑</span></div></div>
+  <div class='poster-item'><span class='poster-id'>Poster #44</span><div class='poster-info'><span class='poster-title'>結合肢體與音訊特徵之個人化鋼琴演奏視覺系統設計</span><span class='poster-author'>蔡岱臻, 黃稚筌, 許程胤, 張舜涵, 李炘穎, 溫凱翔, 潘則佑, 胡敏君</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Poster #45</span><div class='poster-info'><span class='poster-title'>Papillon：結合視覺辨識的視障女性生理期應用設計</span><span class='poster-author'>郭瑞晴, 張芷榕, 蕭孟菱, 張雅婷, 郭哲豪</span></div></div>
   <div class='poster-sep'></div>
@@ -366,8 +366,6 @@ export default {
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #1</span><div class='poster-info'><span class='poster-title'>TitanFeel, A Body-Worn Haptic VR System for Enhancing Attack on Titan Gameplay</span><span class='poster-author'>Tsai-Ni Chen, Yun Huang, Wen-Tzu Huang and Wei-Jhen Wu</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #2</span><div class='poster-info'><span class='poster-title'>TAG: Enhancing the horror game experience with a Cooling system and a 3DoF device</span><span class='poster-author'>Hsiang-Chih Chiu, Yi-Cheng Huang and Yun-Chen Cheng</span></div></div>
-  <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #3</span><div class='poster-info'><span class='poster-title'>AI驅動互動敘事遊戲〈SLAVR〉 - 以AI輔助玩家對話功能影響遊戲 AI NPC 好感度的機制設計探索</span><span class='poster-author'>Ling-Qiao Huang and Jiunde Lee</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #4</span><div class='poster-info'><span class='poster-title'>MRDAW: Towards Collaborative Digital Audio Workstations in Mixed Reality</span><span class='poster-author'>Shih-Yu Ma, Torin Hopkins, Ming-Yuan Pai, Suibi Che-Chuan Weng, Ellen Yi-Luen Do and Luca Turchet</span></div></div>
@@ -382,8 +380,6 @@ export default {
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #9</span><div class='poster-info'><span class='poster-title'>促進酒精使用障礙復原的協作式聊天機器人行動支援系統</span><span class='poster-author'>Yu-Ching Lin, Yan-Ming Chen, Chih-Ching Chuang, Pin-Yu Liu, Yun-Jen Wu, Hsiang-Yen Fan, Chien Wen Yuan, Nanyi Bi, Shu-Hao Hsu, Hu-Ming Chang, Ming-Chyi Huang and Chuang-Wen You</span></div></div>
   <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #10</span><div class='poster-info'><span class='poster-title'>DinoForce-An Immersive Haptic Experience System for Dinosaur Apocalypse Simulation</span><span class='poster-author'>Yu-Chieh Chao, Tzu-Chia Fu and Yu-Ching Wu</span></div></div>
-  <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #11</span><div class='poster-info'><span class='poster-title'>探索非牛頓流體結合日常用品之運動應用</span><span class='poster-author'>許柏潁, 洪靖雯, Hamza Shah Khan, 陳炳宇, and Jun Nishida</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #12</span><div class='poster-info'><span class='poster-title'>A VR Rhythm Dance Game Driven by Wotagei</span><span class='poster-author'>Kalin Lai, Guan-Wen Wang, Yi Ting, Heng-Hao Wang, Hsuan-Tung Lai, Zhe-Cheng Chang, Po-Hung Chiang and Wen-Kai Tai</span></div></div>
@@ -391,8 +387,6 @@ export default {
   <div class='poster-item'><span class='poster-id'>Demo #13</span><div class='poster-info'><span class='poster-title'>Foot Joystick: a Foot-based Input Device Designed for Joystick-like Input Interaction</span><span class='poster-author'>Cheng-Kai Tu and Liwei Chan</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>Demo #14</span><div class='poster-info'><span class='poster-title'>Eye-Foot Movement of Objects in Extended Reality</span><span class='poster-author'>Chih-Jou Li, Hsuan-Hsuan Lee and Liwei Chan</span></div></div>
-  <div class='poster-sep'></div>
-  <div class='poster-item'><span class='poster-id'>Demo #15</span><div class='poster-info'><span class='poster-title'>若祂在場：賽博神聖空間建構的增強體驗設計</span><span class='poster-author'>廖國伶, 陳宜秀</span></div></div>
   <div class='poster-sep'></div>
   <div class='poster-item'><span class='poster-id'>OpenHCI #1</span><div class='poster-info'><span class='poster-title'>DearPlanet</span><span class='poster-author'>張上元、鄭羽芹、林履杰、許安、鄭婷云、魏秭翊、傅鈺婷、李佳蓉</span></div></div>
   <div class='poster-sep'></div>
@@ -402,7 +396,7 @@ export default {
         {
           time: '13:00 - 14:30',
           title: 'Panel 2: 科技藝術與人機互動',
-          detail: '',
+          detail: `<span class='agenda-speaker'>Chair<br>邱誌勇：國立清華大學科技藝術研究所<br><br>Panelist<br>陶亞倫：國立清華大學<br>董芳武：國立清華大學<br>孫士韋：國立臺北藝術大學<br>黃怡靜：荷蘭恩荷芬理工大學 (Eindhoven University of Technology)<br>蔡遵弘：國立清華大學</span>`,
         },
         {
           time: '15:40 - 16:40',

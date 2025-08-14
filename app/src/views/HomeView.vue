@@ -85,7 +85,7 @@
                 <tr><td class="agenda-time">09:00 - 09:30</td><td>Opening</td></tr>
                 <tr><td class="agenda-time">09:30 - 10:30</td><td><b>Opening Keynote: Writing Now! Keeping the Human Voice in AI-Assisted Writing</b><br><span class="agenda-speaker">講者：<b>Duncan Brumby</b><br>Professor, University College London<br><br>主持人：曾元琦 國立清華大學</span></td></tr>
                 <tr><td class="agenda-time">10:30 - 10:50</td><td>Coffee Break</td></tr>
-                <tr><td class="agenda-time">10:50 - 11:38</td><td><b>Paper Session 1: 人工智慧、人際關係與社會連結 / AI, Relationships, and Social Connection</b><br><span class="agenda-speaker">主持人：許有真 國立清華大學</span></td></tr>
+                <tr><td class="agenda-time">10:50 - 11:38</td><td><b>Paper Session 1: 人工智慧、人際關係與社會連結 / AI, Relationships, and Social Connection</b><br><span class="agenda-speaker">主持人：程芙茵 國立中正大學</span></td></tr>
                 <tr><td class="agenda-time">11:38 - 13:20</td><td>Lunch Break</td></tr>
                 <tr><td class="agenda-time">13:20 - 14:20</td><td><b>Paper Session 2: 人機協作與創意設計 / Human-AI Collaboration and Creative Design</b><br><span class="agenda-speaker">主持人：張永儒 國立陽明交通大學</span></td></tr>
                 <tr><td class="agenda-time">14:20 - 17:00</td><td>
@@ -207,6 +207,7 @@
             <img src="@/assets/nthu-logo.png" alt="國立清華大學" class="organizer-logo">
             <img src="@/assets/nycu-logo.png" alt="國立陽明交通大學" class="organizer-logo">
             <img src="@/assets/anzin-logo.png" alt="ANZIN" class="organizer-logo">
+            <img src="@/assets/工程中心LOGO-圓-去背.png" alt="工程科技推展中心" class="organizer-logo">
           </div>
         </div>
       </section>
@@ -218,6 +219,8 @@
           <div class="sponsors-logo-container">
             <img src="@/assets/贊助單位/Ganzin_dark_square@800px.png 的副本.png" alt="Ganzin" class="sponsor-logo">
             <img src="@/assets/贊助單位/國科會標誌組合PNG.png" alt="國科會" class="sponsor-logo">
+            <img src="@/assets/三帝瑪logo.jpg" alt="3dmax" class="sponsor-logo">
+            <img src="@/assets/logo英文_方形.png" alt="userxper" class="sponsor-logo">
           </div>
         </div>
       </section>
@@ -519,7 +522,7 @@ export default {
 }
 
 .organizer-logo {
-  width: 30%;
+  width: 22%;
   object-fit: contain;
 }
 
@@ -533,7 +536,7 @@ export default {
 
 /* Add sponsor-logo style for consistency */
 .sponsor-logo {
-  width: 30%;
+  width: 22%;
   object-fit: contain;
 }
 
