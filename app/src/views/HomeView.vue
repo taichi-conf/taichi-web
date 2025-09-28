@@ -18,6 +18,14 @@
           </div>
         </div>
       </section>
+      
+      <!-- Certificate Download Section -->
+      <section class="section">
+        <div class="certificate-notice">
+          <p>TAICHI25的協辦單位製作了參與人員的感謝狀、各獎項的數位獎狀、及登記作者的發表證明文件；請有需要的朋友，在10月31日以前從下列的檔案夾連結下載：<a href="https://www.dropbox.com/scl/fo/2hbkwniil9gozxfxgabbt/AJ8jSJzDDV1JWxFgAHZ-HPI?rlkey=pcbf9lq240oiop0qrtm2759c4&e=1&st=k0czm58x&dl=0" target="_blank" class="certificate-link">點此下載</a></p>
+        </div>
+      </section>
+      
       <section class="section">
         <div class="description">
             <p>InclusiGen是一個我們針對此研討會所共創的新概念，其融合了Inclusive跟Generative兩個字，表明對生成式人工智慧或生成式設計的潮流，要優先考慮包容性--無論是在易使用性、多樣性、乃至於科技創新背後的道德及哲學考量等方面。我們冀望用InclusiGen體現一充滿憧憬的永續願景：運用人工智慧所生成的內容、創建的系統或創新應用，都能經過精心的設計，使之具有公平性，並且能夠為多元的使用者群體提供支援。無論是應用於以人為本的人工智慧研究、包容性設計方法、或負責任的人工智慧框架，這個新概念都蘊含了運用新科技創建公平服務予所有社群的人性關懷及共融價值。</p>
@@ -773,5 +781,48 @@ export default {
   opacity: 0.92;
   outline: none;
   z-index: 2;
+}
+
+/* Certificate Notice Styles */
+.certificate-notice {
+  padding: 30px 70px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  background-color: RGB(255, 193, 7, 30%);
+  border-radius: 30px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.certificate-notice > p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: bold;
+  word-spacing: 1rem !important;
+}
+
+.certificate-link {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.certificate-link:hover {
+  color: #FFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .certificate-notice {
+    margin-top: 0;
+    padding: 20px 20px;
+  }
 }
 </style>
